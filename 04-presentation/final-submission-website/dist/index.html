@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Decision Trail: a UX Orchestrator demonstrated through the synthetic Upgrade With Confidence project.">
+  <title>The Decision Trail · UX Orchestrator</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23000'/%3E%3Cpath d='M17 17h12v21c0 6 2 9 7 9s8-3 8-9V17h12v22c0 12-8 19-20 19S17 51 17 39V17Z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=7">
+  <link rel="stylesheet" href="story.css?v=10">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the story</a>
+  <header class="nav-shell">
+    <a class="brand" href="#top" aria-label="The Decision Trail home"><b>UX</b><span>Decision Trail</span></a>
+    <nav aria-label="Primary navigation"><a href="#orchestrator">Orchestrator</a><a href="#comparison">Design evidence</a><a href="#prototype">Prototype</a><a href="#guide">Upgrade Guide</a></nav>
+    <button class="pill subtle" id="present-button" type="button">Present this project</button>
+  </header>
+
+  <main id="main">
+    <section class="hero story-stop" id="top" data-guide-title="Opening">
+      <div class="hero-copy reveal">
+        <p class="kicker on-dark">FINAL SUBMISSION · UX ORCHESTRATOR IN ACTION</p>
+        <h1>From a vague request to a decision you can defend.</h1>
+        <p class="hero-lede">This is the story of how a six-phase UX Orchestrator turned one upgrade question into a traceable design—while keeping evidence, assumptions and human judgment visibly separate.</p>
+        <div class="hero-actions"><a class="pill light" href="#orchestrator">See how the work moved</a><a class="arrow-link" href="#prototype">Experience the final design <span>→</span></a></div>
+      </div>
+      <aside class="project-state reveal" aria-label="Project state">
+        <div class="state-head"><span class="live-dot"></span><b>PROJECT STATE</b><small>Updated after Validate gate</small></div>
+        <h2>Upgrade With Confidence</h2>
+        <blockquote class="hero-question"><small>THE CUSTOMER MOMENT</small><strong>“Before I place this order, what exactly changes?”</strong></blockquote>
+        <dl><div><dt>Current phase</dt><dd>06 · Deliver</dd></div><div><dt>Evidence class</dt><dd>Synthetic</dd></div><div><dt>Prototype</dt><dd>local-v3-v9</dd></div><div><dt>Human owner</dt><dd>Ankusha</dd></div></dl>
+        <div class="gate-strip"><span>01 ✓</span><span>02 ✓</span><span>03 ✓</span><span>04 ✓</span><span>05 ✓*</span><span class="active">06</span></div>
+        <p>*Approved for academic delivery with documented limitations.</p>
+      </aside>
+    </section>
+
+    <section class="thesis story-stop" data-guide-title="The trust gap">
+      <p class="kicker">WHY THIS EXISTS</p>
+      <h2>AI can make UX work faster.<br>It can also make the reasoning disappear.</h2>
+      <p class="thesis-lede">The Orchestrator is designed to prevent that. It makes every handoff inspectable: what entered the phase, what the AI was allowed to do, what it produced, and where a human made the call.</p>
+      <div class="thesis-grid"><article><span>01</span><h3>Start from something approved</h3><p>No phase begins from an invisible prompt or an unmarked assumption.</p></article><article><span>02</span><h3>Give AI a bounded job</h3><p>Each agent has a defined responsibility, method and stopping point.</p></article><article><span>03</span><h3>Make the decision human</h3><p>The system can recommend a direction. Only the accountable designer can advance it.</p></article></div>
+    </section>
+
+    <section class="phase-story story-stop" id="orchestrator" data-guide-title="The six-phase system">
+      <header class="section-heading"><div><p class="kicker">01 · THE ORCHESTRATOR</p><h2>Six phases. One question at every gate: do we know enough to move forward?</h2></div><p>Select a phase to see the story behind the work—not only what was produced, but what informed it, who owned it and why the project was allowed to advance.</p></header>
+      <div class="phase-rail" role="tablist" aria-label="UX Orchestrator phases">
+        <button class="phase-tab is-active" role="tab" aria-selected="true" data-phase="0"><small>PHASE 01</small><b>Intake</b><span>Approved</span></button>
+        <button class="phase-tab" role="tab" aria-selected="false" data-phase="1"><small>PHASE 02</small><b>Discover</b><span>Approved</span></button>
+        <button class="phase-tab" role="tab" aria-selected="false" data-phase="2"><small>PHASE 03</small><b>Define</b><span>Approved</span></button>
+        <button class="phase-tab" role="tab" aria-selected="false" data-phase="3"><small>PHASE 04</small><b>Design</b><span>Approved</span></button>
+        <button class="phase-tab" role="tab" aria-selected="false" data-phase="4"><small>PHASE 05</small><b>Validate</b><span>Approved*</span></button>
+        <button class="phase-tab" role="tab" aria-selected="false" data-phase="5"><small>PHASE 06</small><b>Deliver</b><span>Current</span></button>
+      </div>
+      <article class="phase-workbench" id="phase-panel" aria-live="polite">
+        <div class="phase-summary"><div><p id="phase-label">PHASE 01 · INTAKE</p><h3 id="phase-title">First, agree on what we are solving—and what we are not allowed to claim.</h3><p id="phase-copy">Before research or design begins, the request becomes a bounded brief with one decision owner, a defined funnel moment and an explicit synthetic-evidence rule.</p></div><div class="decision-stamp"><small>HUMAN DECISION</small><strong id="phase-decision">Approved</strong><span id="phase-owner">Ankusha · Project Owner and UX Lead</span></div></div>
+        <div class="phase-impact"><span>WHAT CHANGED BECAUSE OF THIS PHASE</span><strong id="phase-impact">A broad upgrades idea became one bounded pre-commitment decision.</strong></div>
+        <div class="contract-grid">
+          <section><span>01</span><small>INPUTS</small><p id="phase-inputs">Submission objective · project constraints · synthetic-evidence rule</p></section>
+          <section><span>02</span><small>AGENT</small><p id="phase-agent">UX Intake Agent</p></section>
+          <section><span>03</span><small>SKILLS</small><div class="chip-list" id="phase-skills"><i>Parse UX request</i><i>Create UX brief</i><i>Frame UX questions</i></div></section>
+          <section><span>04</span><small>ARTIFACTS</small><div class="artifact-list" id="phase-artifacts"><b>UX Brief</b><b>Requirement Inventory</b><b>Stakeholder Questions</b></div></section>
+          <section class="gate-card"><span>05</span><small>HUMAN GATE</small><p id="phase-gate">Is the framing clear enough to begin Discover?</p></section>
+        </div>
+        <footer class="phase-next"><span>DECISION RECORDED</span><p id="phase-record">ART-001 version 1 approved with scope and evidence boundaries retained.</p><b id="phase-next">Next → Phase 02 · Discover</b></footer>
+      </article>
+    </section>
+
+    <section class="project-band story-stop" data-guide-title="The question">
+      <div class="project-title"><p class="kicker on-dark">02 · THE SYSTEM MEETS A REAL DESIGN QUESTION</p><p class="chapter-bridge">A framework only matters if it can carry a messy decision from ambiguity to action.</p><h2>Upgrade With Confidence</h2></div>
+      <div class="project-question"><p class="kicker on-dark">THE MOMENT WE CHOSE</p><h3>“Before I place this order, what exactly changes?”</h3><p>A device upgrade is not one price. It can combine tax, a device payment, a one-time fee, a plan effect and a trade-in credit that may arrive later. Our design hypothesis is simple: bring those consequences together before commitment.</p></div>
+      <div class="question-pills"><span><b>Today</b><small>What leaves my account now?</small></span><span><b>Next bill</b><small>Which new charges appear once?</small></span><span><b>Every month</b><small>What changes after credits begin?</small></span><span><b>Conditions</b><small>What could still change the amount?</small></span></div>
+    </section>
+
+    <section class="trace-section story-stop" data-guide-title="The decision trail">
+      <header class="section-heading"><div><p class="kicker">THE DECISION TRAIL</p><h2>One customer question shaped every decision that followed.</h2></div><p>Read this left to right: what we could verify, the risk we chose to explore, the outcome we designed for, the response we made and what we checked.</p></header>
+      <div class="trace-map" aria-label="Example design traceability chain">
+        <article><small>WHAT WE COULD VERIFY</small><strong>An upgrade has more than one financial consequence.</strong><p>Charges, payments, credits and conditions happen on different timelines.</p><em>EVID-001–006</em></article><i>→</i><article><small>THE RISK WE CHOSE TO EXPLORE</small><strong>The full impact may be difficult to assemble before commitment.</strong><p>Confusion and abandonment are hypotheses—not established customer findings.</p><em>PROBLEM-001</em></article><i>→</i><article><small>THE OUTCOME WE DESIGNED FOR</small><strong>Make the complete impact understandable in one place.</strong><p>Let someone distinguish what is immediate, recurring, delayed or conditional.</p><em>OPP-001</em></article><i>→</i><article class="dark"><small>THE DESIGN RESPONSE</small><strong>Upgrade Impact</strong><p>A stable decision aid that updates as choices are confirmed.</p><em>TRACE-001</em></article><i>→</i><article><small>WHAT WE COULD CHECK</small><strong>Does the prototype show the right information at the right time?</strong><p>We tested workflow coverage and accessibility behavior—not comprehension or conversion.</p><em>VAL-001 / 004</em></article>
+      </div>
+      <p class="boundary-note"><b>The honest boundary:</b> public evidence supports the complexity of the transaction. It does not prove that real customers are confused, abandon because of it, or will convert because of this design.</p>
+    </section>
+
+    <section class="comparison-section story-stop" id="comparison" data-guide-title="Where the price stops making sense">
+      <header class="section-heading"><div><p class="kicker">CURRENT → HEURISTIC AUDIT → PROPOSED</p><h2>The redesign starts with one unanswered question: what will I actually pay?</h2></div><p>We preserved the supplied journey from line selection through confirmation, then traced where device, payment, plan, fee and trade-in information stopped adding up to one understandable decision.</p></header>
+      <div class="comparison-tabs" role="tablist" aria-label="Design comparison views">
+        <button class="comparison-tab is-active" type="button" role="tab" aria-selected="true" data-view="current"><span>01</span><b>Current design</b><small>What exists</small></button>
+        <button class="comparison-tab" type="button" role="tab" aria-selected="false" data-view="audit"><span>02</span><b>Heuristic audit</b><small>Where the math breaks</small></button>
+        <button class="comparison-tab" type="button" role="tab" aria-selected="false" data-view="proposed"><span>03</span><b>Proposed design</b><small>How the design responds</small></button>
+      </div>
+      <div class="comparison-stage">
+        <div class="comparison-browser"><div class="comparison-bar"><span id="comparison-status">SUPPLIED REFERENCE</span><b id="comparison-window-title">Current design</b><small>Use the tabs above to follow the redesign</small></div><iframe id="comparison-frame" src="prototype/index.html?page=current" title="Current design reference"></iframe></div>
+        <aside class="comparison-story" aria-live="polite"><span id="comparison-number">01 · CURRENT</span><h3 id="comparison-title">The journey supports shopping—but asks the customer to assemble the impact.</h3><p id="comparison-copy">Financial implications appear across a broad selection and configuration journey. The clearest summary arrives after commitment.</p><div><small>WHAT TO NOTICE</small><ul id="comparison-notes"><li>Costs appear at different moments.</li><li>Trade-in is not part of one connected decision.</li><li>The pre-commitment review is incomplete.</li></ul></div></aside>
+      </div>
+      <div class="response-map">
+        <article><b>01</b><div><span>AUDIT</span><p>Financial impact is fragmented.</p></div><i>→</i><div><span>DESIGN RESPONSE</span><p>Persistent Upgrade Impact groups today, next bill and ongoing amounts.</p></div></article>
+        <article><b>02</b><div><span>AUDIT</span><p>Trade-in value is disconnected from total impact.</p></div><i>→</i><div><span>DESIGN RESPONSE</span><p>Estimated value, conditional credit and timing remain together.</p></div></article>
+        <article><b>03</b><div><span>AUDIT</span><p>Final correction paths are not demonstrated.</p></div><i>→</i><div><span>DESIGN RESPONSE</span><p>Editable review recalculates affected values without losing context.</p></div></article>
+        <article><b>04</b><div><span>AUDIT</span><p>Recovery behavior is not demonstrated.</p></div><i>→</i><div><span>DESIGN RESPONSE</span><p>Focused errors, preserved choices, status checks and one safe retry.</p></div></article>
+      </div>
+      <section class="heuristic-method" aria-labelledby="heuristic-title">
+        <header><div><p class="kicker">THE EXPERT METHOD</p><h3 id="heuristic-title">Ten heuristics turned visual observations into testable design risks.</h3></div><p>This is expert evaluation—not customer evidence. Severity describes potential risk, not how often customers experience it.</p></header>
+        <div class="heuristic-grid">
+          <article><span>H1 · SEVERITY 3</span><b>Visibility of system status</b><p>The complete financial state is not consolidated before commitment.</p></article>
+          <article><span>H3 · SEVERITY 4</span><b>User control and freedom</b><p>The connected path does not show a complete editable pre-submit review.</p></article>
+          <article><span>H5 · SEVERITY 3</span><b>Error prevention</b><p>Financial confirmation and ambiguous-order recovery are not demonstrated.</p></article>
+          <article><span>H6 · SEVERITY 4</span><b>Recognition over recall</b><p>Payment, plan, offer and trade-in values must be remembered across sections.</p></article>
+        </div>
+        <button class="method-link" id="open-heuristic" type="button">View the priority heuristic findings ↗</button>
+      </section>
+    </section>
+
+    <section class="prototype-section story-stop" id="prototype" data-guide-title="The design response">
+      <header class="prototype-copy"><p class="kicker on-dark">03 · THE DESIGN RESPONSE</p><h2>Preserve the journey. Add the missing financial layer.</h2><p>The familiar line, device-grid, PDP, plan, payment, trade-in, review and confirmation patterns remain. Upgrade Impact sits alongside them, explains the math and stays editable until commitment.</p><div class="proof-pills"><span>Familiar flow retained</span><span>Totals and deltas together</span><span>Edit without losing context</span><span>Recover without duplicating</span></div><button class="pill light" id="open-prototype" type="button">Experience the seven-step flow</button></header>
+      <div class="product-shell"><div class="product-bar"><b>UPGRADE WITH CONFIDENCE</b><span>local-v3-v9 · synthetic</span></div><iframe src="prototype/index.html?page=prototype&amp;embed=1" title="Interactive Upgrade With Confidence prototype" loading="lazy"></iframe></div>
+    </section>
+
+    <section class="validation-section story-stop" data-guide-title="The prototype pushed back">
+      <header class="section-heading"><div><p class="kicker">04 · THE PROTOTYPE PUSHED BACK</p><h2>The first dry run exposed where the design was telling the wrong story.</h2></div><p>Values appeared before the customer had made the choices that produced them, and failure recovery encouraged action before order status was known. Both moments weakened the promise of confidence.</p></header>
+      <div class="before-after">
+        <article class="before"><small>BEFORE · LOCAL-V1-V7</small><h3>Configured values appeared too early.</h3><div class="mock-state"><span>Upgrade Impact</span><b>+$15.00/mo</b><p>Shown before the customer confirmed related choices.</p></div><footer>VI-002 · Revision required</footer></article>
+        <div class="revision-arrow"><span>CHANGED</span><b>→</b></div>
+        <article class="after"><small>AFTER · LOCAL-V2-V8</small><h3>Impact begins honestly.</h3><div class="mock-state"><span>Upgrade Impact</span><b>Not calculated</b><p>Values appear only after the related choices are confirmed.</p></div><footer>VI-002 · Verified</footer></article>
+        <article class="before"><small>BEFORE · LOCAL-V1-V7</small><h3>Recovery paths could not be executed.</h3><div class="recovery-state"><span>Submission failed</span><button>Try again</button><p>No order-status check or preserved-choice evidence.</p></div><footer>VI-001 · Revision required</footer></article>
+        <div class="revision-arrow"><span>CHANGED</span><b>→</b></div>
+        <article class="after"><small>AFTER · LOCAL-V2-V8</small><h3>Recovery protects the decision.</h3><div class="recovery-state"><span>Status unknown</span><button>Check order status</button><p>Choices persist; retry becomes available only when safe.</p></div><footer>VI-001 · Verified</footer></article>
+      </div>
+      <div class="validation-result"><div><strong>4</strong><span>criteria met</span></div><div><strong>1</strong><span>criterion partially met</span></div><div><strong>0</strong><span>blocking prototype issues</span></div><p>No participants · no conversion measurement · no WCAG conformance claim</p></div>
+    </section>
+
+    <section class="testing-section story-stop" data-guide-title="What still needs customer evidence">
+      <header class="section-heading"><div><p class="kicker">05 · THE NEXT EVIDENCE GAP</p><h2>Workflow validation tells us that it works. Customer testing must tell us whether it is understood.</h2></div><p>No participant preference is claimed. The next credible step is a comparative comprehension study using the same upgrade scenario in the current and proposed experiences.</p></header>
+      <div class="testing-ladder">
+        <article class="complete"><span>COMPLETED</span><h3>Expert and workflow evaluation</h3><p>Heuristic review, deterministic paths, keyboard behavior, responsive reflow and targeted recovery retest.</p></article>
+        <article class="next"><span>NEXT STUDY</span><h3>Current versus proposed</h3><p>Can representative participants correctly explain today’s payment, next bill, ongoing bill and trade-in conditions?</p></article>
+        <article><span>MEASURES</span><h3>Evidence before preference</h3><p>Comprehension accuracy, critical errors, completion, time, backtracking, confidence and reasoned preference.</p></article>
+      </div>
+      <p class="testing-boundary"><b>Required wording:</b> “The proposed design is ready for participant testing.” Not: “Customers preferred the proposed design.”</p>
+      <button class="plan-link" id="open-study-plan" type="button">See how we would test this with customers ↗</button>
+    </section>
+
+    <section class="guide-section story-stop" id="guide" data-guide-title="Questions outside the flow">
+      <div class="guide-copy"><p class="kicker">06 · WHEN THE FLOW IS NOT THE ANSWER</p><h2>The transaction handles choices. Upgrade Guide handles questions.</h2><p>Upgrade Guide is a separate public-information proof of concept—not part of the synthetic Northstar transaction. It explains general Verizon upgrade topics without pretending it can see a customer’s account.</p><div class="role-grid"><article><b>Useful for public guidance</b><p>Eligibility rules, phone selection, trade-in conditions, plans, activation and support.</p></article><article><b>Stops at the account boundary</b><p>No account access, order inspection, bill lookup, live inventory or guaranteed offer.</p></article></div><p class="grounding"><span></span><b>Grounded in a verified 150-question public FAQ set.</b> When the answer depends on private account data, it escalates instead of guessing.</p></div>
+      <div class="guide-stage" aria-label="Upgrade Guide introduction">
+        <div class="guide-orbit" aria-hidden="true"><span>ELIGIBILITY</span><span>TRADE-IN</span><span>ACTIVATION</span></div>
+        <div class="guide-stage-card"><span class="guide-status"><i></i> PUBLIC GUIDANCE</span><h3>Questions do not have to interrupt the story.</h3><p>Upgrade Guide now sits above the case study. Open it from any chapter, ask a general upgrades question, then return to the same place.</p><button class="pill guide-open" id="open-assistant-inline" type="button">Ask Upgrade Guide <span>↗</span></button><small>No account access · No live offer lookup · No guessing</small></div>
+      </div>
+    </section>
+
+    <section class="evidence-section story-stop" data-guide-title="Evidence boundary">
+      <div class="evidence-title"><p class="kicker on-dark">07 · WHERE THE STORY MUST STOP</p><h2>A credible case study says where its evidence ends.</h2><p>This submission demonstrates a governed process and an executable design hypothesis. It does not turn a synthetic exercise into a customer or business claim.</p></div>
+      <div class="evidence-columns"><article><span>SUPPORTED</span><ul><li>Six-phase orchestration</li><li>Artifact and decision traceability</li><li>Executable prototype behavior</li><li>Revision and targeted retest</li><li>Grounded FAQ response boundaries</li></ul></article><article><span>NOT YET SUPPORTED</span><ul><li>Real customer usability</li><li>Measured conversion lift</li><li>Production feasibility</li><li>Accessibility conformance</li><li>Live account or order integration</li></ul></article></div>
+    </section>
+
+    <section class="deliver-section story-stop" id="product-owner-case" data-guide-title="What the trail produced">
+      <header class="closing-statement"><p class="kicker">THE PRODUCT-OWNER CASE</p><h2>How we would prove whether the redesign works.</h2><p>This section translates the UX idea into a business decision: what should improve, how we would measure it and what must not get worse.</p></header>
+      <aside class="po-explainer" aria-label="Purpose of the Product Owner Case">
+        <div><span>WHY THIS SECTION EXISTS</span><h3>A better-looking experience is not enough to justify investment.</h3><p>The Product Owner Case shows how we would evaluate this redesign as a business investment—not claim that it has already increased conversion or retention.</p></div>
+        <ol><li><span>01</span><p><b>What customer behavior should improve?</b>Customers should understand the financial impact with less hesitation and reconstruction.</p></li><li><span>02</span><p><b>Which business outcome should we measure?</b>Review-to-submit conversion in a controlled product experiment.</p></li><li><span>03</span><p><b>What consequences must we protect against?</b>Cancellations, returns, billing contacts and promotion disputes must not worsen.</p></li></ol>
+      </aside>
+      <div class="business-chain" aria-label="Evidence sequence for a product decision">
+        <article><span>01 · CONFIRM COMPREHENSION</span><b>Can people explain the math?</b><p>Check today’s payment, next bill, ongoing bill and credit timing with participants.</p></article><i>→</i><article><span>02 · OBSERVE BEHAVIOR</span><b>Does hesitation decrease?</b><p>Watch review exits, backtracks and jumps to support during the task.</p></article><i>→</i><article><span>03 · MEASURE THE OUTCOME</span><b>Does completion improve?</b><p>Run a controlled experiment on review-to-submit conversion.</p></article><i>→</i><article><span>04 · PROTECT QUALITY</span><b>Did we create new problems?</b><p>Monitor cancellations, returns, billing contacts and promotion disputes.</p></article>
+      </div>
+      <p class="business-boundary"><b>The decision sequence:</b> customer study first → controlled product experiment second → rollout only if conversion improves and quality guardrails hold.</p>
+      <button class="plan-link dark-link" id="open-measurement-plan" type="button">Explore the product measurement plan ↗</button>
+      <div class="outcome-grid"><article><span>01</span><h3>Reasoning stayed connected</h3><p>The question traces through evidence, opportunity, design response, validation and delivery.</p></article><article><span>02</span><h3>The prototype was allowed to fail</h3><p>The first dry run contradicted the design promise, so the work returned for revision.</p></article><article class="dark"><span>03</span><h3>Confidence remained a hypothesis</h3><p>The design is ready to test with people—not ready to claim customer or conversion impact.</p></article></div>
+      <details class="package-details"><summary>Inspect the complete submission package <span>+</span></summary><div class="package-list"><p><b>Interactive case study</b><small>The connected presentation you are viewing.</small></p><p><b>Orchestrator framework</b><small>Six phases, specialist agents, reusable skills, gates and templates.</small></p><p><b>Upgrades project</b><small>Approved records from Intake through Validate and Deliver.</small></p><p><b>Working demonstrations</b><small>Interactive upgrade flow and grounded Upgrade Guide.</small></p><p><b>Evidence appendix</b><small>Synthetic data, assumptions, limitations, approvals and traceability.</small></p></div></details>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#top"><b>UX</b><span>Decision Trail</span></a><p>Upgrade With Confidence · Synthetic academic demonstration · 2026</p><button id="footer-present" type="button">Present from the beginning ↑</button></footer>
+
+  <div class="assistant-backdrop" id="assistant-backdrop" hidden></div>
+  <button class="assistant-launcher" id="assistant-launcher" type="button" aria-expanded="false" aria-controls="assistant-panel">
+    <span class="assistant-mark" aria-hidden="true">UG</span><span><small>NEED CONTEXT?</small><b>Ask Upgrade Guide</b></span><i aria-hidden="true">↗</i>
+  </button>
+  <aside class="assistant-panel" id="assistant-panel" aria-label="Upgrade Guide assistant" hidden>
+    <header class="assistant-panel-bar"><div><span><i></i> GROUNDED FAQ</span><b>Upgrade Guide</b></div><a href="http://127.0.0.1:7862" target="_blank" rel="noopener" aria-label="Open Upgrade Guide in a separate tab">Open ↗</a><button type="button" id="assistant-close" aria-label="Close Upgrade Guide">×</button></header>
+    <iframe src="http://127.0.0.1:7862/?embed=1" title="Upgrade Guide chatbot" loading="lazy"></iframe>
+    <footer>Public information only <span>·</span> Your place in the case study is preserved</footer>
+  </aside>
+
+  <aside class="presentation-controls" id="presentation-controls" aria-label="Presentation controls" hidden><button type="button" id="guide-close" aria-label="Exit presentation mode">×</button><span id="guide-progress">01 / 12</span><b id="guide-title">Opening</b><div><button type="button" id="guide-prev">←</button><button type="button" id="guide-next">Next →</button></div></aside>
+
+  <dialog class="evidence-dialog" id="heuristic-dialog" aria-labelledby="heuristic-dialog-title">
+    <div class="evidence-dialog-bar"><div><small>PHASE 02 · DISCOVER</small><b id="heuristic-dialog-title">Heuristic Evaluation Scorecard</b></div><button type="button" data-close-dialog="heuristic-dialog">Close ×</button></div>
+    <div class="evidence-dialog-body" tabindex="0" aria-label="Heuristic findings; scroll for all findings">
+      <header class="dialog-lede"><span>EXPERT REVIEW · NOT CUSTOMER EVIDENCE</span><h2>Four priority risks shaped the redesign.</h2><p>Each finding connects an observed interface problem to a design response. Severity is expert judgment—not proof that customers experience the issue.</p></header>
+      <div class="scorecard-list"><article><span>H1 · SEVERITY 3</span><h3>Visibility of system status</h3><p>Complete financial impact is not consolidated before commitment.</p><b>Response → Persistent Upgrade Impact</b></article><article><span>H3 · SEVERITY 4</span><h3>User control and freedom</h3><p>A complete editable pre-submit review is not demonstrated.</p><b>Response → Edit and recalculate in context</b></article><article><span>H5 · SEVERITY 3</span><h3>Error prevention</h3><p>Financial confirmation and ambiguous-order recovery are not demonstrated.</p><b>Response → Status check before retry</b></article><article><span>H6 · SEVERITY 4</span><h3>Recognition over recall</h3><p>Payment, plan, offer and trade-in values must be remembered across sections.</p><b>Response → One connected calculation</b></article></div>
+      <p class="dialog-boundary"><b>What this can support:</b> design risks worth testing. <b>What it cannot support:</b> claims that customers are confused, abandon, or prefer the redesign.</p>
+    </div>
+  </dialog>
+
+  <dialog class="evidence-dialog" id="study-plan-dialog" aria-labelledby="study-plan-title">
+    <div class="evidence-dialog-bar"><div><small>NEXT EVIDENCE STEP</small><b id="study-plan-title">Comparative Comprehension Study</b></div><button type="button" data-close-dialog="study-plan-dialog">Close ×</button></div>
+    <div class="evidence-dialog-body" tabindex="0" aria-label="Customer test plan; scroll for the complete plan">
+      <header class="dialog-lede"><span>PROPOSED CUSTOMER TEST · NOT COMPLETED YET</span><h2>Can people explain the bill more accurately in the new design?</h2><p>Participants complete the same upgrade in both versions. We compare what they understood—not only which screen they liked.</p></header>
+      <div class="plan-layout"><section><small>THE QUESTION</small><h3>Can participants correctly explain what they pay—and when?</h3><ul><li>Amount due today</li><li>Estimated next bill and the one-time fee</li><li>Ongoing monthly bill after credits</li><li>Trade-in amount, timing and conditions</li></ul></section><section class="dark"><small>THE METHOD</small><h3>Moderated, within-subject comparison</h3><ul><li>8–12 representative upgrade customers</li><li>Order counterbalanced to reduce learning bias</li><li>Same device, plan and trade-in scenario</li><li>Think-aloud task plus comprehension questions</li></ul></section></div>
+      <div class="measure-grid"><article><span>01</span><b>Comprehension accuracy</b><p>Correctly state all four financial outcomes without prompting.</p></article><article><span>02</span><b>Critical errors</b><p>Track wrong amounts, missed fees and mistaken credit timing.</p></article><article><span>03</span><b>Behavior</b><p>Completion, time, backtracking and requests for clarification.</p></article><article><span>04</span><b>Preference with reason</b><p>Ask which version supports the decision and why—after comprehension.</p></article></div>
+      <p class="dialog-boundary"><b>Decision rule:</b> advance only if comprehension improves without more critical errors or task friction. Report individual results and uncertainty; do not present a small synthetic study as market proof.</p>
+    </div>
+  </dialog>
+
+  <dialog class="evidence-dialog" id="measurement-plan-dialog" aria-labelledby="measurement-plan-title">
+    <div class="evidence-dialog-bar"><div><small>PRODUCT DECISION FRAMEWORK</small><b id="measurement-plan-title">Measurement Plan</b></div><button type="button" data-close-dialog="measurement-plan-dialog">Close ×</button></div>
+    <div class="evidence-dialog-body" tabindex="0" aria-label="Product measurement plan; scroll for the complete plan">
+      <header class="dialog-lede"><span>BUSINESS HYPOTHESIS · NOT A FORECAST</span><h2>Connect comprehension to conversion—without confusing correlation for proof.</h2><p>If customers understand the complete financial impact before commitment, they may hesitate less at review and encounter fewer surprises after ordering. Each link needs its own evidence.</p></header>
+      <div class="metric-story"><article><small>LEADING EVIDENCE</small><h3>Comprehension</h3><p>Participant accuracy for today, next bill, ongoing bill and trade-in conditions.</p></article><i>→</i><article><small>BEHAVIOR DIAGNOSTICS</small><h3>Review friction</h3><p>Backtracks, edit loops, exits and transitions from the flow to support.</p></article><i>→</i><article class="dark"><small>PRIMARY OUTCOME</small><h3>Review-to-submit</h3><p>Confirmed orders divided by customers who reach Upgrade Impact review.</p></article><i>→</i><article><small>QUALITY GUARDRAILS</small><h3>Retained success</h3><p>Cancellations, returns, billing contacts and promotion disputes.</p></article></div>
+      <div class="decision-panel"><span>THE PRODUCT OWNER’S DECISION</span><h3>Roll out only when the primary outcome improves and guardrails do not worsen.</h3><p>Start with a participant study. If comprehension improves, run a controlled experiment with pre-defined duration, sample, segment checks and stopping rules. Investigate any conversion lift that arrives with worse support or cancellation outcomes.</p></div>
+      <p class="dialog-boundary"><b>Current evidence boundary:</b> this project supplies a design hypothesis and measurement architecture. It contains no production analytics, verified retention lift or conversion forecast.</p>
+    </div>
+  </dialog>
+
+  <dialog id="prototype-dialog" aria-label="Full-screen upgrade prototype"><div class="dialog-bar"><b>Upgrade With Confidence · local-v3-v9</b><button type="button" id="close-prototype">Close</button></div><iframe src="prototype/index.html?page=prototype&amp;embed=1" title="Full-screen upgrade prototype" loading="lazy"></iframe></dialog>
+  <script src="app.js?v=6"></script>
+</body>
+</html>

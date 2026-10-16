@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Upgrade Guide: grounded answers for phones, plans, upgrades, trade-ins, and support." />
+    <title>Upgrade Guide</title>
+    <link rel="stylesheet" href="/static/styles.css?v=4" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Upgrade Guide home">
+        <span>Upgrade Guide</span><span class="brand-check" aria-hidden="true">●</span>
+      </a>
+      <div class="topbar-actions">
+        <span class="demo-label">Grounded FAQ</span>
+        <button class="icon-button" id="clear-chat" type="button" aria-label="Clear conversation" title="Clear conversation">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3m-8 0 1 13h8l1-13M10 11v5m4-5v5" /></svg>
+        </button>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <section class="chat-panel" aria-labelledby="chat-title">
+        <div class="chat-header">
+          <div>
+            <h2 id="chat-title">What can we help with?</h2>
+            <p class="chat-intro">Ask a general upgrades question. Account-specific cases are routed to support instead of guessed.</p>
+          </div>
+          <span class="availability"><span></span> Ready</span>
+        </div>
+
+        <div class="suggestions" aria-label="Suggested questions">
+          <button type="button" data-question="Am I eligible to upgrade my phone?">Upgrade eligibility</button>
+          <button type="button" data-question="How does Verizon trade-in credit work?">Trade-in credit</button>
+          <button type="button" data-question="Will changing my plan affect my device promotion?">Plan and promotion</button>
+          <button type="button" data-question="What charges could appear on my next bill after an upgrade?">Next bill</button>
+        </div>
+
+        <div id="messages" class="messages" role="log" aria-live="polite" aria-label="Conversation">
+          <article class="message assistant-message">
+            <div class="avatar" aria-hidden="true">V</div>
+            <div class="message-body">
+              <p class="speaker">Upgrade Guide</p>
+              <div class="bubble">Ask me about upgrade eligibility, trade-in conditions, payment options, plans, activation or order support. I’ll stay within the verified public FAQ.</div>
+            </div>
+          </article>
+        </div>
+
+        <form id="chat-form" class="composer">
+          <label class="sr-only" for="question">Ask a question</label>
+          <textarea id="question" name="question" rows="1" maxlength="2000" placeholder="Ask about upgrades, plans, trade-ins…" required></textarea>
+          <button id="send-button" type="submit" aria-label="Send question">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5" /></svg>
+          </button>
+          <p class="composer-note">Enter to send · Shift + Enter for a new line</p>
+        </form>
+      </section>
+    </main>
+
+    <script src="/static/app.js?v=4"></script>
+  </body>
+</html>

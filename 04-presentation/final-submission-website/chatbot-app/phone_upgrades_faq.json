@@ -1,0 +1,1217 @@
+{
+  "schema_version": "1.0",
+  "dataset_name": "Verizon Prospect and Phone Upgrade FAQ",
+  "language": "en-US",
+  "updated_on": "2026-10-11",
+  "total_questions": 150,
+  "fields": {
+    "id": "Unique question identifier",
+    "category": "FAQ category",
+    "question": "User-facing question",
+    "answer": "Crisp chatbot response",
+    "link_text": "CTA label",
+    "url": "Relevant Verizon webpage"
+  },
+  "questions": [
+    {
+      "id": "upgrade_001",
+      "category": "Upgrade eligibility",
+      "question": "Am I eligible to upgrade my phone?",
+      "answer": "You can generally upgrade at any time if you pay full retail price for the new phone. To use device payments on an existing line, the current device usually must be paid off or qualify for an early upgrade, and the account cannot be past due. The exact status of a particular line is account-specific.",
+      "link_text": "Check upgrade eligibility",
+      "url": "https://www.verizon.com/support/upgrade-device-faqs/"
+    },
+    {
+      "id": "upgrade_002",
+      "category": "Upgrade eligibility",
+      "question": "Do I need to pay off my current phone before upgrading?",
+      "answer": "If your phone has a Verizon device payment agreement, you generally need to pay it off before upgrading unless the device qualifies for Verizon's early upgrade program.",
+      "link_text": "View device balance",
+      "url": "https://www.verizon.com/support/device-payment-faqs/"
+    },
+    {
+      "id": "upgrade_003",
+      "category": "Upgrade eligibility",
+      "question": "Can I upgrade before I become eligible?",
+      "answer": "Yes, there are two common paths: pay the remaining device balance in full, or use an eligible early-upgrade program after meeting its payment and device-condition rules. Otherwise, you can buy a replacement phone at full retail price.",
+      "link_text": "Explore upgrade options",
+      "url": "https://www.verizon.com/support/upgrade-device-faqs/"
+    },
+    {
+      "id": "upgrade_004",
+      "category": "Upgrade eligibility",
+      "question": "Can I upgrade only one line on a family plan?",
+      "answer": "Yes. Eligible devices on a Verizon account can be upgraded separately. The Account Owner or an Account Manager may also be able to transfer upgrade eligibility between devices on the account.",
+      "link_text": "Manage my lines",
+      "url": "https://www.verizon.com/support/upgrade-device-faqs/"
+    },
+    {
+      "id": "upgrade_005",
+      "category": "Phone selection",
+      "question": "Which phone is best for me?",
+      "answer": "Start with four needs: budget, preferred operating system, camera quality and battery life. Then compare screen size, storage, durability and how many years you expect to keep the phone. A midrange model is often enough for calls, messaging, streaming and everyday photos.",
+      "link_text": "Compare phones",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "upgrade_006",
+      "category": "Phone selection",
+      "question": "What are the newest phones available?",
+      "answer": "Verizon carries current phones from brands such as Apple, Samsung, Google and Motorola, along with certified pre-owned choices. Models and inventory change, so use the phone catalog link to compare what is currently available.",
+      "link_text": "Shop new phones",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "upgrade_007",
+      "category": "Phone selection",
+      "question": "Should I choose an iPhone or an Android phone?",
+      "answer": "Consider your existing devices, favorite apps, preferred level of customization, camera needs, budget and how easily your data can be transferred.",
+      "link_text": "Compare operating systems",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "upgrade_008",
+      "category": "Phone selection",
+      "question": "How much phone storage do I need?",
+      "answer": "Light users may be comfortable with 128 GB. If you record a lot of video, play large games or keep many files locally, consider 256 GB or more.",
+      "link_text": "Compare storage options",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "upgrade_009",
+      "category": "Phone selection",
+      "question": "Will a new 5G phone work with my current plan?",
+      "answer": "Many current plans support 5G, but access depends on your plan, device and location. Check your plan details and local network coverage before upgrading.",
+      "link_text": "Check 5G coverage",
+      "url": "https://www.verizon.com/coverage-map/"
+    },
+    {
+      "id": "upgrade_010",
+      "category": "Trade-in",
+      "question": "How much is my current phone worth?",
+      "answer": "Trade-in value depends on the device model, condition and whether it qualifies for a promotion. A new customer can request an estimate at Verizon's trade-in page without signing in; the final value is confirmed after the device is received and inspected.",
+      "link_text": "Estimate trade-in value",
+      "url": "https://www.verizon.com/trade-in/"
+    },
+    {
+      "id": "upgrade_011",
+      "category": "Trade-in",
+      "question": "Can I trade in a phone with a cracked screen?",
+      "answer": "It depends on the offer. Standard trade-in value and many promotions have condition requirements, while some Verizon deals may accept eligible devices in any condition. Review the specific offer terms.",
+      "link_text": "Review trade-in conditions",
+      "url": "https://www.verizon.com/support/current-device-promotions/"
+    },
+    {
+      "id": "upgrade_012",
+      "category": "Trade-in",
+      "question": "Can I trade in a phone that is not fully paid off?",
+      "answer": "You generally need to pay off a Verizon device payment agreement before trading in that phone. Eligible early upgrades follow different device-return requirements.",
+      "link_text": "View trade-in requirements",
+      "url": "https://www.verizon.com/support/device-payment-faqs/"
+    },
+    {
+      "id": "upgrade_013",
+      "category": "Trade-in",
+      "question": "What should I do before trading in my old phone?",
+      "answer": "Back up and transfer your data, turn off activation locks such as Find My iPhone or Find My Device, erase personal information and follow Verizon's return instructions.",
+      "link_text": "Prepare my phone",
+      "url": "https://www.verizon.com/trade-in/"
+    },
+    {
+      "id": "upgrade_014",
+      "category": "Trade-in",
+      "question": "When will I receive my trade-in credit?",
+      "answer": "After Verizon receives and verifies the device, a standard trade-in may be issued as a one-time account credit or Verizon Gift Card. Promotional trade-in value is normally provided as monthly bill credits and may take 1–2 billing periods to begin.",
+      "link_text": "Track my trade-in",
+      "url": "https://www.verizon.com/trade-in/"
+    },
+    {
+      "id": "upgrade_015",
+      "category": "Promotions",
+      "question": "What phone upgrade promotions are available?",
+      "answer": "Common Verizon phone offers include trade-in promotions, discounts on qualifying devices, bring-your-own-device offers and multi-device deals. Eligibility can depend on the phone, plan, new or upgraded line and trade-in. Offers change, so review the terms shown with the deal.",
+      "link_text": "View current deals",
+      "url": "https://www.verizon.com/deals/"
+    },
+    {
+      "id": "upgrade_016",
+      "category": "Promotions",
+      "question": "Why does the promotion require a specific plan?",
+      "answer": "Some device discounts are available only with qualifying plans. Compare the total monthly cost of the required plan and device before accepting the offer.",
+      "link_text": "Compare eligible plans",
+      "url": "https://www.verizon.com/plans/unlimited/"
+    },
+    {
+      "id": "upgrade_017",
+      "category": "Promotions",
+      "question": "What does a free phone promotion actually mean?",
+      "answer": "A Verizon free-phone offer commonly offsets the device payment with monthly promotional credits, often over 36 months. A qualifying plan, new line or trade-in may be required, and taxes and fees may still apply.",
+      "link_text": "Read promotion details",
+      "url": "https://www.verizon.com/support/current-device-promotions/"
+    },
+    {
+      "id": "upgrade_018",
+      "category": "Promotions",
+      "question": "What happens to my promotional credits if I pay off the phone early?",
+      "answer": "Verizon states that monthly promotional credits for a device stop when its device payment agreement is paid off early. Credits can also depend on keeping an eligible plan and active service, so review the offer terms before making changes.",
+      "link_text": "Review offer terms",
+      "url": "https://www.verizon.com/support/upgrade-device-faqs/"
+    },
+    {
+      "id": "upgrade_019",
+      "category": "Payments and billing",
+      "question": "Can I pay for my new phone in monthly installments?",
+      "answer": "Verizon offers device payment agreements to eligible customers. The monthly amount depends on the phone price, required down payment and any applicable promotional credits.",
+      "link_text": "Explore payment options",
+      "url": "https://www.verizon.com/support/device-payment-faqs/"
+    },
+    {
+      "id": "upgrade_020",
+      "category": "Payments and billing",
+      "question": "Will I need to make a down payment?",
+      "answer": "Verizon may require a down payment based on the device price and your financing eligibility. Applicable taxes and fees may also be due when you place the order.",
+      "link_text": "Learn about financing",
+      "url": "https://www.verizon.com/support/device-payment-faqs/"
+    },
+    {
+      "id": "upgrade_021",
+      "category": "Payments and billing",
+      "question": "How will upgrading affect my monthly bill?",
+      "answer": "Your bill may change because of the new device payment, promotional credits, plan changes, protection coverage, taxes and fees. Review the estimated monthly and upfront totals before ordering.",
+      "link_text": "Estimate my new bill",
+      "url": "https://www.verizon.com/support/device-payment-faqs/"
+    },
+    {
+      "id": "upgrade_022",
+      "category": "Payments and billing",
+      "question": "Are there any upgrade or activation fees?",
+      "answer": "Verizon may charge a one-time activation or upgrade fee per line. Taxes, shipping, accessories and other one-time charges may also apply; check the order summary for the current amount.",
+      "link_text": "Review fees",
+      "url": "https://www.verizon.com/support/important-plan-information/"
+    },
+    {
+      "id": "upgrade_023",
+      "category": "Plans",
+      "question": "Do I have to change my plan when I upgrade?",
+      "answer": "Not always. You can often keep a compatible existing plan, but some phone promotions require a particular current plan. Compare the new plan's service price and features with any device discount before deciding.",
+      "link_text": "Review my plan",
+      "url": "https://www.verizon.com/plans/unlimited/"
+    },
+    {
+      "id": "upgrade_024",
+      "category": "Plans",
+      "question": "Can upgrading help me get a better wireless plan?",
+      "answer": "It can be a useful time to compare plans, but the phone and service plan are separate choices. Compare total monthly cost, hotspot data, international use, perks and the needs of every line; a higher-priced plan is not automatically a better fit.",
+      "link_text": "Compare plans",
+      "url": "https://www.verizon.com/plans/unlimited/"
+    },
+    {
+      "id": "upgrade_025",
+      "category": "Ordering",
+      "question": "Can I upgrade online instead of visiting a store?",
+      "answer": "Yes. Verizon lets customers shop for a phone, choose delivery or eligible store pickup and complete an upgrade online. A store visit is optional unless identity, inventory or a special support need requires in-person help.",
+      "link_text": "Start an online upgrade",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "upgrade_026",
+      "category": "Ordering",
+      "question": "What if the phone I want is out of stock?",
+      "answer": "Check other colors or storage sizes, search nearby stores, choose shipping, join a waitlist if offered or compare a similar device.",
+      "link_text": "Check phone availability",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "upgrade_027",
+      "category": "Setup and transfer",
+      "question": "Can I keep my current phone number when I upgrade?",
+      "answer": "Yes. Activating an upgraded phone on an existing Verizon line normally keeps that line's phone number. Confirm that you select the correct line during activation.",
+      "link_text": "Learn about activation",
+      "url": "https://www.verizon.com/support/how-to-activate-device-video/"
+    },
+    {
+      "id": "upgrade_028",
+      "category": "Setup and transfer",
+      "question": "How do I transfer my data to my new phone?",
+      "answer": "Use Verizon's Content Transfer Center, the My Verizon app, a manufacturer transfer tool or a recent cloud backup. Confirm that important content and authentication apps transferred before erasing the old phone.",
+      "link_text": "View transfer instructions",
+      "url": "https://www.verizon.com/support/content-transfer-help/"
+    },
+    {
+      "id": "upgrade_029",
+      "category": "Account and permissions",
+      "question": "Who can upgrade a phone on my Verizon account?",
+      "answer": "On an existing Verizon account, the Account Owner or an authorized Account Manager can generally manage device upgrades. Account Members may have limited permissions. A prospective customer opening a new account completes the purchase as the new account owner.",
+      "link_text": "Review account roles",
+      "url": "https://www.verizon.com/support/accounts-and-billing/"
+    },
+    {
+      "id": "upgrade_030",
+      "category": "Account and permissions",
+      "question": "Can I upgrade if there is a pending order on my account?",
+      "answer": "A pending order or account change can block another upgrade on the same line until it is completed or removed. This is an account-specific issue, so Verizon support may need to review it.",
+      "link_text": "Review upgrade rules",
+      "url": "https://www.verizon.com/support/upgrade-device-faqs/"
+    },
+    {
+      "id": "upgrade_031",
+      "category": "Upgrade eligibility",
+      "question": "Can I transfer upgrade eligibility to another line?",
+      "answer": "Verizon may allow an Account Owner or Account Manager to move upgrade eligibility between eligible devices on the same account. Whether a particular pair of lines qualifies is account-specific.",
+      "link_text": "Learn about upgrade transfers",
+      "url": "https://www.verizon.com/support/upgrade-device-faqs/"
+    },
+    {
+      "id": "upgrade_032",
+      "category": "Upgrade eligibility",
+      "question": "Can I buy a new phone at full retail price at any time?",
+      "answer": "Yes. Verizon says a device purchased at full retail price can be upgraded at any time, provided the account is not past due.",
+      "link_text": "Review upgrade eligibility",
+      "url": "https://www.verizon.com/support/upgrade-device-faqs/"
+    },
+    {
+      "id": "upgrade_033",
+      "category": "Upgrade eligibility",
+      "question": "Can I use a phone that I bought somewhere else?",
+      "answer": "You may be able to activate a compatible, unlocked phone on your Verizon line. Check the device's IMEI before purchasing or activating it.",
+      "link_text": "Check device compatibility",
+      "url": "https://www.verizon.com/bring-your-own-device/"
+    },
+    {
+      "id": "upgrade_034",
+      "category": "Upgrade eligibility",
+      "question": "Can I keep my old phone after I upgrade?",
+      "answer": "You can keep it if you own it and the upgrade does not require an early-upgrade return or promotional trade-in. Review your order terms before deciding.",
+      "link_text": "Review upgrade options",
+      "url": "https://www.verizon.com/support/upgrade-device-faqs/"
+    },
+    {
+      "id": "upgrade_035",
+      "category": "Phone selection",
+      "question": "Can I upgrade to a Certified Pre-Owned phone?",
+      "answer": "Yes. Verizon offers Certified Pre-Owned devices as lower-cost alternatives, subject to current inventory and eligibility.",
+      "link_text": "Explore pre-owned phones",
+      "url": "https://www.verizon.com/smartphones/certified-pre-owned/"
+    },
+    {
+      "id": "upgrade_036",
+      "category": "Phone selection",
+      "question": "Is the newest phone worth upgrading to?",
+      "answer": "Compare the new model with your current phone based on battery life, camera, performance, software support and total cost. A newer model is worthwhile only if the improvements matter to you.",
+      "link_text": "Compare smartphones",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "upgrade_037",
+      "category": "Phone selection",
+      "question": "Will an unlocked phone work on Verizon?",
+      "answer": "Many unlocked phones work on Verizon, but compatibility depends on the exact model and IMEI. Use Verizon's compatibility checker before buying or activating the phone.",
+      "link_text": "Check compatibility",
+      "url": "https://www.verizon.com/bring-your-own-device/"
+    },
+    {
+      "id": "upgrade_038",
+      "category": "Phone selection",
+      "question": "Does my new phone include a charger and accessories?",
+      "answer": "Included items vary by manufacturer and model. Review the product page's box contents before ordering because a wall charger, case or headphones may need to be purchased separately.",
+      "link_text": "Shop smartphones",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "upgrade_039",
+      "category": "Promotions",
+      "question": "When will my promotional credits appear on my bill?",
+      "answer": "Verizon says promotional credits can take 1 to 2 billing cycles to appear. Review the offer terms and your bill details if the expected credits do not appear.",
+      "link_text": "Review promotion FAQs",
+      "url": "https://www.verizon.com/support/current-device-promotions/"
+    },
+    {
+      "id": "upgrade_040",
+      "category": "Promotions",
+      "question": "Will changing my plan affect my phone promotion?",
+      "answer": "It can. Some promotions require you to remain on a qualifying plan for the full promotional term. Check the offer terms before changing your plan.",
+      "link_text": "Review promotion requirements",
+      "url": "https://www.verizon.com/support/current-device-promotions/"
+    },
+    {
+      "id": "upgrade_041",
+      "category": "Promotions",
+      "question": "What happens to my device promotion if I cancel the line?",
+      "answer": "Canceling the line generally ends future promotional credits, and any remaining device balance may become due. Review your device agreement and promotion terms first.",
+      "link_text": "Review device payment terms",
+      "url": "https://www.verizon.com/support/device-payment-faqs/"
+    },
+    {
+      "id": "upgrade_042",
+      "category": "Payments and billing",
+      "question": "Do I pay sales tax on the phone when I upgrade?",
+      "answer": "Applicable taxes depend on your location and order. The amount due at checkout can include taxes calculated from the phone's retail price as required by local law.",
+      "link_text": "Review billing information",
+      "url": "https://www.verizon.com/support/billing-and-payments/"
+    },
+    {
+      "id": "upgrade_043",
+      "category": "Promotions",
+      "question": "Can I combine multiple Verizon upgrade offers?",
+      "answer": "Some offers can be combined and others cannot. Review the specific promotion terms and your cart summary to confirm which discounts apply together.",
+      "link_text": "View current deals",
+      "url": "https://www.verizon.com/deals/"
+    },
+    {
+      "id": "upgrade_044",
+      "category": "Payments and billing",
+      "question": "How long is a Verizon device payment agreement?",
+      "answer": "The available device payment term is shown during checkout and in the agreement. Review the number of payments, monthly amount and total price before accepting it.",
+      "link_text": "Review payment FAQs",
+      "url": "https://www.verizon.com/support/device-payment-faqs/"
+    },
+    {
+      "id": "upgrade_045",
+      "category": "Trade-in",
+      "question": "Can I trade in a phone from another carrier?",
+      "answer": "Yes. Verizon accepts many eligible devices from other carriers. The model, condition and promotion determine the available value.",
+      "link_text": "Estimate trade-in value",
+      "url": "https://www.verizon.com/trade-in/"
+    },
+    {
+      "id": "upgrade_046",
+      "category": "Trade-in",
+      "question": "Do I need to remove the activation lock before trading in my phone?",
+      "answer": "Yes. Turn off Find My iPhone, Activation Lock or Find My Device as applicable, sign out of your accounts and factory-reset the phone before returning it.",
+      "link_text": "Prepare a trade-in",
+      "url": "https://www.verizon.com/trade-in/"
+    },
+    {
+      "id": "upgrade_047",
+      "category": "Trade-in",
+      "question": "How long do I have to send Verizon my trade-in?",
+      "answer": "Verizon's trade-in instructions generally require the device to be mailed within 30 days. Follow the deadline shown in your confirmation because promotion requirements can vary.",
+      "link_text": "Review trade-in instructions",
+      "url": "https://www.verizon.com/trade-in/"
+    },
+    {
+      "id": "upgrade_048",
+      "category": "Trade-in",
+      "question": "Can I get my old phone back after sending it to Verizon?",
+      "answer": "No. Verizon states that device trade-ins are final after you accept the credit and send the device, so confirm that your data is transferred before returning it.",
+      "link_text": "Review trade-in FAQs",
+      "url": "https://www.verizon.com/trade-in/"
+    },
+    {
+      "id": "upgrade_049",
+      "category": "Trade-in",
+      "question": "How can I track my Verizon trade-in?",
+      "answer": "Use Verizon's Trade-In Tracker to review the submission status and available return options. Keep your shipping receipt and tracking number until the credit is confirmed.",
+      "link_text": "Track my trade-in",
+      "url": "https://www.verizon.com/trade-in/"
+    },
+    {
+      "id": "upgrade_050",
+      "category": "Trade-in",
+      "question": "Can Verizon recycle a phone with no trade-in value?",
+      "answer": "Verizon accepts various devices through its trade-in and recycling programs. Start with the trade-in tool to see the available option for your device.",
+      "link_text": "Explore trade-in options",
+      "url": "https://www.verizon.com/trade-in/"
+    },
+    {
+      "id": "upgrade_051",
+      "category": "Ordering",
+      "question": "What is the difference between a preorder and a backorder?",
+      "answer": "A preorder reserves a phone before its release date. A backorder means a released phone is temporarily unavailable. The estimated shipping date appears during checkout and in the order status.",
+      "link_text": "Check order status",
+      "url": "https://www.verizon.com/od/cust/orderStatusIndex"
+    },
+    {
+      "id": "upgrade_052",
+      "category": "Ordering",
+      "question": "Can I pick up my upgraded phone at a Verizon store?",
+      "answer": "Yes, store or locker pickup may be offered when the selected phone is in stock at a nearby location. Preorder and backorder items generally are not available for immediate pickup.",
+      "link_text": "Review pickup options",
+      "url": "https://www.verizon.com/support/in-store-pickup-faqs/"
+    },
+    {
+      "id": "upgrade_053",
+      "category": "Ordering",
+      "question": "How do I track my Verizon phone order?",
+      "answer": "Use Verizon's order-status page with the requested order details to check progress without signing in. Customers can also view orders in My Verizon, and carrier tracking becomes available after the package ships.",
+      "link_text": "Check order status",
+      "url": "https://www.verizon.com/od/cust/orderStatusIndex"
+    },
+    {
+      "id": "upgrade_054",
+      "category": "Ordering",
+      "question": "Can I change or cancel my phone order?",
+      "answer": "A phone order may be changed or canceled only while its processing status still allows it. Act quickly; shipped orders and orders already prepared for pickup may need to follow the return process instead.",
+      "link_text": "Manage my order",
+      "url": "https://www.verizon.com/support/cancel-online-order/"
+    },
+    {
+      "id": "upgrade_055",
+      "category": "Ordering",
+      "question": "Who can pick up a Verizon store order?",
+      "answer": "For an existing account, Verizon generally requires the Account Owner or an authorized Account Manager to collect a store order with the identification requested in the confirmation.",
+      "link_text": "Review pickup requirements",
+      "url": "https://www.verizon.com/support/in-store-pickup-faqs/"
+    },
+    {
+      "id": "upgrade_056",
+      "category": "Returns and exchanges",
+      "question": "Can I return or exchange my upgraded phone?",
+      "answer": "Eligible devices bought directly from Verizon can generally be returned or exchanged within 30 days. Merchandise must meet Verizon's return conditions.",
+      "link_text": "Read the return policy",
+      "url": "https://www.verizon.com/support/return-policy/"
+    },
+    {
+      "id": "upgrade_057",
+      "category": "Returns and exchanges",
+      "question": "Is there a restocking fee for returning a phone?",
+      "answer": "Verizon may apply a restocking fee to wireless device returns or exchanges, with exceptions in some locations. Review the current policy before returning the device.",
+      "link_text": "Review return fees",
+      "url": "https://www.verizon.com/support/return-policy/"
+    },
+    {
+      "id": "upgrade_058",
+      "category": "Returns and exchanges",
+      "question": "Where do I return a phone bought from a Verizon Authorized Retailer?",
+      "answer": "A phone bought from a Verizon Authorized Retailer must generally be returned to that retailer under its own return policy. Check your receipt to identify the seller.",
+      "link_text": "Review return procedures",
+      "url": "https://www.verizon.com/support/return-exchange-procedures/"
+    },
+    {
+      "id": "upgrade_059",
+      "category": "Returns and exchanges",
+      "question": "Does returning my new phone cancel my Verizon service?",
+      "answer": "No. Returning a device does not automatically cancel the mobile line. Contact Verizon separately if you also want to cancel service.",
+      "link_text": "Read the return policy",
+      "url": "https://www.verizon.com/support/return-policy/"
+    },
+    {
+      "id": "upgrade_060",
+      "category": "Activation",
+      "question": "How do I activate my upgraded phone?",
+      "answer": "Turn off the old phone, power on the new one and follow its on-screen setup prompts while connected to Wi-Fi. A Verizon-bought phone may activate automatically; eSIM or bring-your-own devices may require the activation steps supplied during checkout. Contact support if service does not activate.",
+      "link_text": "View activation steps",
+      "url": "https://www.verizon.com/support/how-to-activate-device-video/"
+    },
+    {
+      "id": "upgrade_061",
+      "category": "Activation",
+      "question": "Will my upgraded phone use a physical SIM or eSIM?",
+      "answer": "That depends on the phone model. Some devices use a physical SIM, some support both, and others use eSIM only. Follow the activation prompts provided for your device.",
+      "link_text": "Learn about SIM and eSIM",
+      "url": "https://www.verizon.com/support/sim-card-faqs/"
+    },
+    {
+      "id": "upgrade_062",
+      "category": "Setup and transfer",
+      "question": "Will my voicemail transfer to my new phone?",
+      "answer": "Your Verizon voicemail service stays with the line, but saved messages or Visual Voicemail settings may require additional setup. Confirm important messages before erasing the old phone.",
+      "link_text": "Get voicemail help",
+      "url": "https://www.verizon.com/support/voice-mail-faqs/"
+    },
+    {
+      "id": "upgrade_063",
+      "category": "Setup and transfer",
+      "question": "How do I transfer my authentication apps to the new phone?",
+      "answer": "Use each app's transfer or backup process before erasing the old phone. Confirm that you can sign in to important accounts and save recovery codes in a secure place.",
+      "link_text": "View transfer resources",
+      "url": "https://www.verizon.com/support/content-transfer-help/"
+    },
+    {
+      "id": "upgrade_064",
+      "category": "Setup and transfer",
+      "question": "What should I do with iMessage when switching from iPhone to Android?",
+      "answer": "Turn off iMessage before activating the Android phone so text messages are routed correctly. Verify messaging on the new device before erasing the iPhone.",
+      "link_text": "View transfer help",
+      "url": "https://www.verizon.com/support/content-transfer-help/"
+    },
+    {
+      "id": "upgrade_065",
+      "category": "Protection and support",
+      "question": "Can I add device protection when I upgrade?",
+      "answer": "Eligible new and Certified Pre-Owned devices may qualify for Verizon device protection. Review available coverage, enrollment timing, monthly cost, deductibles and exclusions before adding it.",
+      "link_text": "Compare protection options",
+      "url": "https://www.verizon.com/support/insurance-and-device-protection/"
+    },
+    {
+      "id": "prospect_066",
+      "category": "Getting started",
+      "question": "What is Verizon mobile service?",
+      "answer": "Verizon provides mobile phone service over its 5G and 4G LTE networks. A customer chooses a compatible phone and a mobile plan, then activates a new number or transfers an eligible existing number.",
+      "link_text": "Explore Verizon mobile",
+      "url": "https://www.verizon.com/plans/"
+    },
+    {
+      "id": "prospect_067",
+      "category": "Getting started",
+      "question": "Can I compare Verizon phones and plans before creating an account?",
+      "answer": "Yes. You can browse phones, compare plan features, check coverage and review current offers before starting an order or creating an account.",
+      "link_text": "Compare mobile plans",
+      "url": "https://www.verizon.com/plans/"
+    },
+    {
+      "id": "prospect_068",
+      "category": "Getting started",
+      "question": "Can a new customer buy a phone from Verizon?",
+      "answer": "Yes. A new customer can choose a Verizon phone or bring a compatible unlocked device, select a plan and activate a new line. Device-payment and promotional eligibility are confirmed during the order.",
+      "link_text": "Shop phones",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "prospect_069",
+      "category": "Plans and service",
+      "question": "What is the difference between prepaid and standard monthly service?",
+      "answer": "Prepaid service is paid before each service period and does not use a standard monthly bill. Standard monthly service is billed after use and can support device-payment agreements, multiple lines and features that may differ from prepaid. Compare the current plan details before choosing.",
+      "link_text": "Compare prepaid and monthly plans",
+      "url": "https://www.verizon.com/plans/"
+    },
+    {
+      "id": "prospect_070",
+      "category": "Plans and service",
+      "question": "Can I get Verizon service for just one phone line?",
+      "answer": "Yes. Verizon offers service for a single phone line as well as accounts with multiple lines. The best option depends on the current per-line price, features and how many people need service.",
+      "link_text": "Explore plans",
+      "url": "https://www.verizon.com/plans/"
+    },
+    {
+      "id": "prospect_071",
+      "category": "Plans and service",
+      "question": "Does Verizon require an annual service contract?",
+      "answer": "Current consumer mobile service is generally offered month to month. A device-payment agreement is separate from the service plan, so canceling service can make any remaining device balance due and may end promotional credits.",
+      "link_text": "Review customer agreement information",
+      "url": "https://www.verizon.com/support/customer-agreement/"
+    },
+    {
+      "id": "prospect_072",
+      "category": "Plans and service",
+      "question": "Which Verizon plan is best for a light data user?",
+      "answer": "Choose based on total cost and the features you will actually use. A light user should compare Verizon's current entry-level monthly and prepaid options, checking hotspot access, international use and any plan requirements tied to a phone promotion.",
+      "link_text": "Compare current plans",
+      "url": "https://www.verizon.com/plans/"
+    },
+    {
+      "id": "prospect_073",
+      "category": "Plans and service",
+      "question": "What does unlimited data mean on a Verizon plan?",
+      "answer": "Unlimited phone data does not necessarily mean every type of data has identical performance. Plans can differ in network priority, premium data, video quality and high-speed mobile-hotspot allowances, so compare those details for the places and activities that matter to you.",
+      "link_text": "Compare unlimited plans",
+      "url": "https://www.verizon.com/plans/unlimited/"
+    },
+    {
+      "id": "prospect_074",
+      "category": "Plans and service",
+      "question": "Can people on the same Verizon account choose different plans?",
+      "answer": "Eligible current Verizon phone plans can generally be mixed across lines, letting each person choose features that fit their use. Compatibility, discounts and older plans can affect the available combinations.",
+      "link_text": "Compare plan options",
+      "url": "https://www.verizon.com/plans/"
+    },
+    {
+      "id": "prospect_075",
+      "category": "Plans and service",
+      "question": "Are streaming and other perks included with Verizon plans?",
+      "answer": "Some plan features are included, while entertainment, travel, safety and hotspot perks may be optional monthly add-ons. Availability depends on the plan, so compare the service price and the cost of only the perks you want.",
+      "link_text": "Browse plan perks",
+      "url": "https://www.verizon.com/support/plan-perks/"
+    },
+    {
+      "id": "prospect_076",
+      "category": "Plans and service",
+      "question": "Are taxes and fees included in the advertised Verizon plan price?",
+      "answer": "Taxes, government charges and certain Verizon fees can vary by location and service and may be added to an advertised plan price unless the offer specifically says otherwise. Review the order summary for the estimated total before submitting the order.",
+      "link_text": "Review billing information",
+      "url": "https://www.verizon.com/support/view-bill-online-faqs/"
+    },
+    {
+      "id": "prospect_077",
+      "category": "Hotspot and connected devices",
+      "question": "Can I use my Verizon phone as a mobile hotspot?",
+      "answer": "Many Verizon phone plans support Mobile Hotspot on compatible phones, letting nearby laptops or tablets use the phone's data connection over Wi-Fi. The amount of high-speed hotspot data and the speed after that allowance vary by plan.",
+      "link_text": "Learn about Mobile Hotspot",
+      "url": "https://www.verizon.com/support/mobile-hotspot-faqs/"
+    },
+    {
+      "id": "prospect_078",
+      "category": "Switching and BYOD",
+      "question": "Can I bring my current phone to Verizon?",
+      "answer": "Yes, if the phone is unlocked and compatible with Verizon's network. Verizon's compatibility check uses the device ID, and eligible smartphones, tablets and smartwatches can be brought from another carrier, retailer or manufacturer.",
+      "link_text": "Check device compatibility",
+      "url": "https://www.verizon.com/support/bring-your-own-device-faqs/"
+    },
+    {
+      "id": "prospect_079",
+      "category": "Switching and BYOD",
+      "question": "How do I know whether my phone is compatible with Verizon?",
+      "answer": "Use Verizon's bring-your-own-device compatibility checker with the phone's IMEI or device ID. The phone must support Verizon's network and be unlocked by the previous carrier before activation.",
+      "link_text": "Check compatibility",
+      "url": "https://www.verizon.com/bring-your-own-device/"
+    },
+    {
+      "id": "prospect_080",
+      "category": "Switching and BYOD",
+      "question": "Can I keep my phone number when switching to Verizon?",
+      "answer": "Usually, yes. Verizon accepts most eligible mobile and landline numbers. Keep the old service active until the transfer is complete so the number remains available to move.",
+      "link_text": "Check number eligibility",
+      "url": "https://www.verizon.com/support/local-number-portability-faqs/"
+    },
+    {
+      "id": "prospect_081",
+      "category": "Switching and BYOD",
+      "question": "Should I cancel my old carrier before switching to Verizon?",
+      "answer": "No. Keep the old service active while Verizon transfers the number. After the transfer finishes, the old line normally disconnects automatically; separately confirm any remaining device balance or other obligations with the old carrier.",
+      "link_text": "Prepare to bring your number",
+      "url": "https://www.verizon.com/support/local-number-portability-faqs/"
+    },
+    {
+      "id": "prospect_082",
+      "category": "Switching and BYOD",
+      "question": "What information do I need to transfer my number to Verizon?",
+      "answer": "You generally need the active number, the previous carrier's account number, a Number Transfer PIN or other transfer security code, and a separate contact number. Details vary by carrier, so obtain the transfer PIN shortly before starting.",
+      "link_text": "Review number-transfer requirements",
+      "url": "https://www.verizon.com/support/local-number-portability-faqs/"
+    },
+    {
+      "id": "prospect_083",
+      "category": "Switching and BYOD",
+      "question": "How long does it take to transfer a phone number to Verizon?",
+      "answer": "Many mobile-number transfers complete quickly, but timing depends on the previous provider and whether the submitted information matches. The old service continues during most transfers, and Verizon sends an update when the switch is complete.",
+      "link_text": "Learn about number transfers",
+      "url": "https://www.verizon.com/support/local-number-portability-faqs/"
+    },
+    {
+      "id": "prospect_084",
+      "category": "eSIM and activation",
+      "question": "What is an eSIM?",
+      "answer": "An eSIM is a digital SIM built into a mobile device. It can activate compatible cellular service without inserting a removable physical SIM card; some devices support both eSIM and physical SIM.",
+      "link_text": "Learn about Verizon eSIM",
+      "url": "https://www.verizon.com/support/esim-activation-instructions/"
+    },
+    {
+      "id": "prospect_085",
+      "category": "Switching and BYOD",
+      "question": "Can I switch to Verizon if my phone is locked to another carrier?",
+      "answer": "The phone must be unlocked by the previous carrier before it can activate on Verizon. Ask that carrier about its eligibility requirements; after unlocking, Verizon notes that activation availability can take up to 24 hours to update.",
+      "link_text": "Review BYOD requirements",
+      "url": "https://www.verizon.com/support/bring-your-own-device-faqs/"
+    },
+    {
+      "id": "prospect_086",
+      "category": "Coverage and network",
+      "question": "How can I check Verizon coverage where I live or travel?",
+      "answer": "Use Verizon's interactive coverage map and enter the address or area you care about. Check home, work, school and regular travel routes; actual service can also be affected by terrain, buildings, device capability and network conditions.",
+      "link_text": "View the coverage map",
+      "url": "https://www.verizon.com/coverage-map/"
+    },
+    {
+      "id": "prospect_087",
+      "category": "Coverage and network",
+      "question": "What is Verizon 5G Ultra Wideband?",
+      "answer": "5G Ultra Wideband is Verizon's higher-performance 5G service in available areas. Access requires a compatible device, an eligible plan and local coverage; performance varies with location and network conditions.",
+      "link_text": "Learn about Verizon 5G",
+      "url": "https://www.verizon.com/coverage-map/"
+    },
+    {
+      "id": "prospect_088",
+      "category": "Coverage and network",
+      "question": "What is Verizon 5G Nationwide?",
+      "answer": "5G Nationwide is Verizon's broader 5G coverage layer. A compatible 5G phone can move among available 5G Nationwide, 5G Ultra Wideband and 4G LTE coverage as conditions change.",
+      "link_text": "See 5G coverage",
+      "url": "https://www.verizon.com/coverage-map/"
+    },
+    {
+      "id": "prospect_089",
+      "category": "Coverage and network",
+      "question": "Will a compatible 4G LTE phone still work on Verizon?",
+      "answer": "A compatible Verizon-certified 4G LTE phone can still use Verizon's 4G LTE network, but it will not gain 5G capabilities. Confirm the exact device with Verizon's compatibility checker before switching or activating it.",
+      "link_text": "Check device compatibility",
+      "url": "https://www.verizon.com/bring-your-own-device/"
+    },
+    {
+      "id": "prospect_090",
+      "category": "Coverage and network",
+      "question": "Why can indoor mobile coverage differ from the coverage map?",
+      "answer": "Coverage maps show expected outdoor coverage and cannot predict every indoor condition. Building materials, terrain, distance from network equipment, congestion and the phone itself can affect signal strength inside a specific home or office.",
+      "link_text": "Check coverage",
+      "url": "https://www.verizon.com/support/knowledge-base-16455/"
+    },
+    {
+      "id": "prospect_091",
+      "category": "Coverage and network",
+      "question": "Does Verizon support Wi-Fi Calling?",
+      "answer": "Verizon supports Wi-Fi Calling on compatible devices, allowing calls and messages over a Wi-Fi connection when cellular coverage is limited. The device and line must meet Verizon's activation and emergency-address requirements.",
+      "link_text": "Learn about Wi-Fi Calling",
+      "url": "https://www.verizon.com/support/wifi-calling-faqs/"
+    },
+    {
+      "id": "prospect_092",
+      "category": "International and travel",
+      "question": "Can I use Verizon service while traveling internationally?",
+      "answer": "Yes, with a compatible device and an international option available for the destination. Verizon offers plan-based international features, TravelPass, monthly international options and pay-as-you-go service; compare destinations and expected use before traveling.",
+      "link_text": "Explore international options",
+      "url": "https://www.verizon.com/support/international-services/"
+    },
+    {
+      "id": "prospect_093",
+      "category": "International and travel",
+      "question": "What is Verizon TravelPass?",
+      "answer": "TravelPass is an international travel option that lets an eligible line use its domestic talk, text and data allowances in more than 210 supported countries and destinations for a daily charge on days the phone is used abroad.",
+      "link_text": "Learn about TravelPass",
+      "url": "https://www.verizon.com/support/travelpass-faqs/"
+    },
+    {
+      "id": "prospect_094",
+      "category": "International and travel",
+      "question": "Does Verizon include service in Mexico and Canada?",
+      "answer": "Mexico and Canada usage is included with some current monthly and prepaid plans, but allowances and speed policies vary. Check the specific plan's international details before choosing it or traveling.",
+      "link_text": "Compare international plan details",
+      "url": "https://www.verizon.com/support/international-travel-faqs/"
+    },
+    {
+      "id": "prospect_095",
+      "category": "Hotspot and connected devices",
+      "question": "Can I add a smartwatch or tablet to Verizon service?",
+      "answer": "Yes. Verizon offers connected-device plans for compatible smartwatches, tablets, laptops, hotspot devices and certain other products. Pricing and whether the device shares a phone number or has its own line depend on the device and plan.",
+      "link_text": "Explore connected-device plans",
+      "url": "https://www.verizon.com/support/connected-device-plan-faqs/"
+    },
+    {
+      "id": "prospect_096",
+      "category": "Device protection and support",
+      "question": "What does Verizon device protection cover?",
+      "answer": "Coverage depends on the protection option selected and can include certain loss, theft, damage, post-warranty malfunction or support benefits. Deductibles, claim limits, exclusions and enrollment windows apply, so review the plan terms before adding coverage.",
+      "link_text": "Compare device protection",
+      "url": "https://www.verizon.com/support/device-protection/"
+    },
+    {
+      "id": "prospect_097",
+      "category": "Accessibility and support",
+      "question": "Does Verizon offer accessibility support?",
+      "answer": "Yes. Verizon provides accessibility information and support for customers with hearing, vision, mobility, speech and cognitive needs, including device and service resources. A specialist can help identify appropriate options without guaranteeing that one product fits every need.",
+      "link_text": "Visit Verizon Accessibility",
+      "url": "https://www.verizon.com/about/accessibility/"
+    },
+    {
+      "id": "prospect_098",
+      "category": "Accessibility and support",
+      "question": "Can I get help choosing a phone before I buy?",
+      "answer": "Yes. You can compare devices online or ask Verizon sales support or a store representative about operating system, size, camera, battery, storage, accessibility and budget. The final choice should reflect your own priorities rather than a guaranteed outcome.",
+      "link_text": "Compare phones",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "prospect_099",
+      "category": "Getting started",
+      "question": "Can I start with Verizon online or do I need to visit a store?",
+      "answer": "You can browse, check device compatibility, choose a phone and plan, transfer an eligible number and start service online. Stores remain available for people who prefer in-person purchasing, pickup or setup help.",
+      "link_text": "Start shopping online",
+      "url": "https://www.verizon.com/"
+    },
+    {
+      "id": "prospect_100",
+      "category": "Getting started",
+      "question": "What can this Verizon FAQ assistant help me understand before I buy?",
+      "answer": "It can explain general Verizon phone, plan, coverage, switching, bring-your-own-device, upgrade, trade-in, payment, delivery, activation, travel and support topics from this FAQ. Exact prices, current inventory, credit decisions, line eligibility and account-specific issues require the relevant Verizon checkout or a representative.",
+      "link_text": "Explore Verizon mobile",
+      "url": "https://www.verizon.com/"
+    },
+    {
+      "id": "prospect_101",
+      "category": "Finding a phone",
+      "question": "How can I find a Verizon phone, and what kinds of phones does Verizon sell?",
+      "answer": "Verizon sells current smartphones and basic phones from major brands, plus certified pre-owned devices when available. You can compare operating system, price, screen size, storage, camera, battery and other features before choosing.",
+      "link_text": "Shop Verizon phones",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "prospect_102",
+      "category": "Finding a phone",
+      "question": "How can I find a phone that fits my budget?",
+      "answer": "Set a total device budget first, then compare full retail price rather than only the monthly payment. Consider midrange, entry-level and certified pre-owned phones, and check whether a promotion requires a specific plan, trade-in or new line.",
+      "link_text": "Compare phones",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "prospect_103",
+      "category": "Finding a phone",
+      "question": "Which phone should I choose for the best camera?",
+      "answer": "Compare the camera samples and specifications of the phones in your budget, including low-light performance, zoom, video stabilization and front-camera quality. The most expensive model is not automatically the best fit for the photos you take.",
+      "link_text": "Compare phone cameras",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "prospect_104",
+      "category": "Finding a phone",
+      "question": "Which phone should I choose for long battery life?",
+      "answer": "Look for a large battery, an efficient processor and a screen size and refresh rate that fit your use. Manufacturer estimates are useful for comparison, but actual battery life depends on signal, brightness, apps, camera use and gaming.",
+      "link_text": "Compare phones",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "prospect_105",
+      "category": "Finding a phone",
+      "question": "Can I find a smaller phone that is easy to hold?",
+      "answer": "Yes. Compare the phone's physical dimensions and weight, not just its screen measurement. A store visit can help you judge grip and reach before buying, while the online catalog provides size and weight specifications.",
+      "link_text": "Compare phone sizes",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "prospect_106",
+      "category": "Finding a phone",
+      "question": "Which phone is suitable for gaming?",
+      "answer": "For gaming, compare processor performance, screen refresh rate, battery capacity, cooling, storage and 5G compatibility. Also consider the size and weight you can comfortably hold for longer sessions.",
+      "link_text": "Compare smartphones",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "prospect_107",
+      "category": "Finding a phone",
+      "question": "Does Verizon offer simple phones for seniors or first-time users?",
+      "answer": "Verizon sells smartphones and basic phones with different levels of complexity. Look for a clear display, loud audio, simple navigation, strong accessibility settings and the right emergency features; individual needs should guide the choice.",
+      "link_text": "Browse phones",
+      "url": "https://www.verizon.com/basic-phones/"
+    },
+    {
+      "id": "prospect_108",
+      "category": "Finding a phone",
+      "question": "What should I consider when choosing a phone for a child or teenager?",
+      "answer": "Consider price, durability, battery life, location and safety tools, parental controls, storage and how the phone will be used. Review the chosen device and plan features with the family rather than relying on a guaranteed age-based recommendation.",
+      "link_text": "Explore phones",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "prospect_109",
+      "category": "Finding a phone",
+      "question": "Does Verizon sell foldable phones?",
+      "answer": "Verizon carries foldable models when they are part of the current device lineup. Compare durability, folded size, open-screen size, camera, battery, warranty and price with a conventional smartphone before deciding.",
+      "link_text": "Browse current phones",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "prospect_110",
+      "category": "Finding a phone",
+      "question": "Are certified pre-owned Verizon phones reliable?",
+      "answer": "Certified pre-owned phones can lower the device cost and are inspected under Verizon's program, but model selection and cosmetic condition can vary. Review the specific listing, warranty, return policy and battery expectations before purchasing.",
+      "link_text": "Shop certified pre-owned phones",
+      "url": "https://www.verizon.com/certified-pre-owned/"
+    },
+    {
+      "id": "prospect_111",
+      "category": "Finding a phone",
+      "question": "Can I compare several Verizon phones side by side?",
+      "answer": "Yes. Verizon's phone catalog lets you compare device specifications and options. Focus on the differences that affect you—total price, operating system, dimensions, storage, battery, camera and expected years of use.",
+      "link_text": "Compare phones",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "prospect_112",
+      "category": "Finding a phone",
+      "question": "Can I buy an unlocked phone and use it on Verizon?",
+      "answer": "Yes, if the unlocked phone is compatible with Verizon's network. Check the exact IMEI or device ID before buying or activating because compatibility can vary among versions of the same model.",
+      "link_text": "Check phone compatibility",
+      "url": "https://www.verizon.com/bring-your-own-device/"
+    },
+    {
+      "id": "prospect_113",
+      "category": "Finding a phone",
+      "question": "How much storage should my next phone have?",
+      "answer": "Choose enough storage for your apps, photos, videos and offline downloads over the years you plan to keep the phone. Cloud storage can help with media but does not replace local space required by apps and system updates.",
+      "link_text": "Compare phone storage",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "prospect_114",
+      "category": "Finding a phone",
+      "question": "What if the phone color or storage size I want is unavailable?",
+      "answer": "Inventory varies by model, configuration, delivery area and store. You can check another color or storage option, choose shipping, look at nearby pickup locations or wait for a backordered configuration; availability is confirmed during checkout.",
+      "link_text": "Shop available phones",
+      "url": "https://www.verizon.com/smartphones/"
+    },
+    {
+      "id": "prospect_115",
+      "category": "Finding a phone",
+      "question": "Can I buy a case, charger or screen protector with my phone?",
+      "answer": "Yes. Verizon sells compatible accessories, but what comes in the phone's box varies by manufacturer and model. Check the product listing before buying a separate charger, cable, case or screen protector.",
+      "link_text": "Shop accessories",
+      "url": "https://www.verizon.com/products/accessories/"
+    },
+    {
+      "id": "prospect_116",
+      "category": "Choosing a plan",
+      "question": "I want to learn about Verizon plans. What plan is good for a family, and how do I choose?",
+      "answer": "Compare the number of lines, total monthly cost, network access, hotspot allowance, international use, video features and optional perks. Also check whether a desired phone promotion requires a particular plan.",
+      "link_text": "Learn about Verizon plans",
+      "url": "https://www.verizon.com/plans/"
+    },
+    {
+      "id": "prospect_117",
+      "category": "Choosing a plan",
+      "question": "How much will Verizon service cost each month?",
+      "answer": "The total depends on the current plan, number of lines, devices, optional perks, protection, discounts, taxes and fees. Use the plan comparison and order summary for a current estimate; do not judge the total from a phone payment alone.",
+      "link_text": "Compare current plan pricing",
+      "url": "https://www.verizon.com/plans/"
+    },
+    {
+      "id": "prospect_118",
+      "category": "Choosing a plan",
+      "question": "Is Verizon less expensive with multiple phone lines?",
+      "answer": "The per-line service price may decrease as eligible lines are added, but the account total rises with more lines and devices. Compare the complete monthly total, included features and any time-limited discounts.",
+      "link_text": "Compare multi-line plans",
+      "url": "https://www.verizon.com/plans/"
+    },
+    {
+      "id": "prospect_119",
+      "category": "Choosing a plan",
+      "question": "Does Verizon offer an Auto Pay discount?",
+      "answer": "Eligible plans may offer savings for Auto Pay and paper-free billing when the required payment method and enrollment conditions are met. Check the current plan terms because eligibility and discount amounts can change.",
+      "link_text": "Learn about Auto Pay",
+      "url": "https://www.verizon.com/support/auto-pay-faqs/"
+    },
+    {
+      "id": "prospect_120",
+      "category": "Choosing a plan",
+      "question": "Does Verizon offer discounts for military members or veterans?",
+      "answer": "Verizon offers an eligibility-based mobile discount for qualifying military members and veterans after verification. It generally cannot be combined with another employment or Those Who Serve discount, though other eligible savings may still apply.",
+      "link_text": "Review military discounts",
+      "url": "https://www.verizon.com/support/military-veterans-faqs/"
+    },
+    {
+      "id": "prospect_121",
+      "category": "Choosing a plan",
+      "question": "Does Verizon offer discounts for teachers, nurses or first responders?",
+      "answer": "Verizon offers eligibility-based discounts for qualifying teachers, nurses and first responders. Verification and plan requirements apply, and only one qualifying employment or Those Who Serve discount can generally be used at a time.",
+      "link_text": "Explore Verizon discounts",
+      "url": "https://www.verizon.com/discounts/"
+    },
+    {
+      "id": "prospect_122",
+      "category": "Choosing a plan",
+      "question": "Does Verizon offer a student discount?",
+      "answer": "A student discount may be available to eligible students after verification and is subject to current line and plan requirements. Review the current offer before choosing a plan because eligibility and savings can change.",
+      "link_text": "Review student discounts",
+      "url": "https://www.verizon.com/featured/students/"
+    },
+    {
+      "id": "prospect_123",
+      "category": "Choosing a plan",
+      "question": "Can I change my Verizon plan later?",
+      "answer": "Yes, eligible customers can change plans, but the change can affect price, features, perks and promotional device credits. Review those effects before confirming a plan change.",
+      "link_text": "Learn about changing plans",
+      "url": "https://www.verizon.com/support/change-plan-faqs/"
+    },
+    {
+      "id": "prospect_124",
+      "category": "Choosing a plan",
+      "question": "Do I need a credit check for Verizon service?",
+      "answer": "A standard monthly account or device-payment agreement may involve an identity and credit review. Prepaid service is paid in advance and is an alternative for customers who prefer not to use standard monthly billing; exact approval and deposit decisions are individual.",
+      "link_text": "Compare plan types",
+      "url": "https://www.verizon.com/plans/"
+    },
+    {
+      "id": "prospect_125",
+      "category": "Choosing a plan",
+      "question": "Can I get Verizon prepaid service without buying a new phone?",
+      "answer": "Yes. You can use a compatible unlocked phone with Verizon Prepaid or purchase a compatible device. Check the device ID and choose a current prepaid plan before activation.",
+      "link_text": "Explore Verizon Prepaid",
+      "url": "https://www.verizon.com/prepaid/"
+    },
+    {
+      "id": "prospect_126",
+      "category": "Choosing a plan",
+      "question": "Can I add or remove plan perks later?",
+      "answer": "Eligible optional perks can generally be added or removed after activation. Billing, eligibility and access after cancellation depend on the perk terms, so review those terms before making a change.",
+      "link_text": "Browse plan perks",
+      "url": "https://www.verizon.com/support/plan-perks/"
+    },
+    {
+      "id": "prospect_127",
+      "category": "Choosing a plan",
+      "question": "Does every Verizon plan include the same 5G access?",
+      "answer": "No. Network access, premium-data treatment, hotspot allowances and video features can differ among plans. A compatible device and local coverage are also required for 5G service.",
+      "link_text": "Compare plan features",
+      "url": "https://www.verizon.com/plans/unlimited/"
+    },
+    {
+      "id": "prospect_128",
+      "category": "Choosing a plan",
+      "question": "Can I use a Verizon plan for business?",
+      "answer": "Verizon offers separate consumer and business services. A business customer should compare Verizon Business plans because pricing, account management, support and device options can differ from consumer service.",
+      "link_text": "Explore Verizon Business",
+      "url": "https://www.verizon.com/business/products/plans/"
+    },
+    {
+      "id": "prospect_129",
+      "category": "Choosing a plan",
+      "question": "Can I get a new Verizon phone number?",
+      "answer": "Yes. When starting a new line, you can receive a new number instead of transferring an existing one. Available area codes and specific number choices depend on service availability during activation.",
+      "link_text": "Start Verizon service",
+      "url": "https://www.verizon.com/plans/"
+    },
+    {
+      "id": "prospect_130",
+      "category": "Switching to Verizon",
+      "question": "What are the basic steps to switch to Verizon?",
+      "answer": "First check coverage and decide whether to bring an unlocked compatible phone or buy one. Then choose a plan, gather your old carrier's account and transfer details if keeping your number, place the order and activate the Verizon line before canceling old service.",
+      "link_text": "Switch to Verizon",
+      "url": "https://www.verizon.com/switch-to-verizon/"
+    },
+    {
+      "id": "prospect_131",
+      "category": "Switching to Verizon",
+      "question": "Can Verizon pay off the phone I have with another carrier?",
+      "answer": "Switching offers may sometimes help offset eligible costs, but availability, reimbursement rules and required documentation change by promotion. Do not cancel or trade in the old phone until you have read the current offer terms and confirmed the remaining balance with the old carrier.",
+      "link_text": "View switching offers",
+      "url": "https://www.verizon.com/switch-to-verizon/"
+    },
+    {
+      "id": "prospect_132",
+      "category": "Switching to Verizon",
+      "question": "Are there promotions for bringing my own phone to Verizon?",
+      "answer": "Bring-your-own-device promotions may be available for eligible new lines and devices. Check the current offer for plan, port-in, device, activation and service-duration requirements before relying on the savings.",
+      "link_text": "View BYOD offers",
+      "url": "https://www.verizon.com/bring-your-own-device/"
+    },
+    {
+      "id": "prospect_133",
+      "category": "Switching to Verizon",
+      "question": "Will my contacts, photos and apps move when I switch carriers?",
+      "answer": "Changing carriers does not automatically erase a phone, but moving to a different phone requires a backup or transfer process. Confirm contacts, photos, messages, authentication apps and important files before erasing or trading in the old device.",
+      "link_text": "Visit the Content Transfer Center",
+      "url": "https://www.verizon.com/support/content-transfer/"
+    },
+    {
+      "id": "prospect_134",
+      "category": "Switching to Verizon",
+      "question": "Can my whole family switch to Verizon together?",
+      "answer": "Yes. Multiple eligible numbers and devices can be moved to a Verizon account. Gather the transfer information for every line, check each device for compatibility and compare the complete multi-line plan and promotion requirements before ordering.",
+      "link_text": "Switch to Verizon",
+      "url": "https://www.verizon.com/switch-to-verizon/"
+    },
+    {
+      "id": "prospect_135",
+      "category": "Switching to Verizon",
+      "question": "Can I switch to Verizon entirely online?",
+      "answer": "Yes. Many customers can check compatibility, choose a device and plan, transfer a number and arrange activation online. Store and support options remain available if identity, device or activation issues require help.",
+      "link_text": "Start switching online",
+      "url": "https://www.verizon.com/switch-to-verizon/"
+    },
+    {
+      "id": "prospect_136",
+      "category": "Switching to Verizon",
+      "question": "Can I switch to Verizon in a store?",
+      "answer": "Yes. A Verizon store can help with device selection, plans, number transfer and activation. Bring identification, payment information and the old carrier account details and transfer PIN if you want to keep your number.",
+      "link_text": "Find a Verizon store",
+      "url": "https://www.verizon.com/stores/"
+    },
+    {
+      "id": "prospect_137",
+      "category": "Switching to Verizon",
+      "question": "Can I trade in a phone from my old carrier when I switch?",
+      "answer": "Yes, an eligible phone from another carrier can be traded in. New customers do not need to have used that device on a Verizon account, but it must meet the selected trade-in or promotion conditions and any balance owed to the old carrier remains your responsibility.",
+      "link_text": "Estimate trade-in value",
+      "url": "https://www.verizon.com/trade-in/"
+    },
+    {
+      "id": "prospect_138",
+      "category": "Home internet",
+      "question": "What home internet services does Verizon offer?",
+      "answer": "Depending on the address, Verizon may offer Fios fiber internet, 5G Home Internet or another wireless home internet option. Availability, speeds, equipment and plans are location-specific.",
+      "link_text": "Explore Verizon Home Internet",
+      "url": "https://www.verizon.com/home/internet/"
+    },
+    {
+      "id": "prospect_139",
+      "category": "Home internet",
+      "question": "Is Verizon Home Internet available at my address?",
+      "answer": "Home internet availability must be checked for the exact service address because network coverage and capacity vary by location. The availability checker shows which Verizon internet options and speeds can currently be ordered there.",
+      "link_text": "Check home internet availability",
+      "url": "https://www.verizon.com/home/internet/fios-fastest-internet/availability/"
+    },
+    {
+      "id": "prospect_140",
+      "category": "Home internet",
+      "question": "What is the difference between Fios and 5G Home Internet?",
+      "answer": "Fios uses a fiber-optic connection installed at the home and is available mainly in parts of the Northeast and Mid-Atlantic. 5G Home Internet is fixed wireless service delivered through Verizon's 5G network. Available speeds and installation depend on the address.",
+      "link_text": "Compare home internet options",
+      "url": "https://www.verizon.com/home/internet/fios-fastest-internet/availability/"
+    },
+    {
+      "id": "prospect_141",
+      "category": "Home internet",
+      "question": "How much home internet speed do I need?",
+      "answer": "Consider how many people and devices will be online together and whether they stream high-resolution video, game, upload large files or join video calls. Faster tiers help with heavy simultaneous use, while a smaller household with ordinary browsing and streaming may need less.",
+      "link_text": "Compare internet plans",
+      "url": "https://www.verizon.com/home/internet/"
+    },
+    {
+      "id": "prospect_142",
+      "category": "Home internet",
+      "question": "Can I install Verizon Home Internet myself?",
+      "answer": "Self-setup is available for many eligible home internet orders. Some Fios addresses need a technician because fiber equipment, an optical network terminal, wiring or other installation work is required; eligibility is determined during the order.",
+      "link_text": "Learn about internet installation",
+      "url": "https://www.verizon.com/support/residential/internet/getting-started/setup-services"
+    },
+    {
+      "id": "prospect_143",
+      "category": "Home internet",
+      "question": "Does Verizon Home Internet include a router?",
+      "answer": "Eligible Verizon home internet plans provide the required gateway or router under the plan's equipment terms. Included equipment and any extender options vary by service and plan, so review the order summary before purchasing separate equipment.",
+      "link_text": "Explore home internet",
+      "url": "https://www.verizon.com/home/internet/"
+    },
+    {
+      "id": "prospect_144",
+      "category": "Home internet",
+      "question": "Does Verizon Home Internet require an annual contract?",
+      "answer": "Current Verizon Fios and wireless home internet offers are generally presented without an annual service contract. Equipment returns, setup charges, discounts and promotional terms can still apply, so review the selected plan's order summary.",
+      "link_text": "Review home internet plans",
+      "url": "https://www.verizon.com/home/internet/"
+    },
+    {
+      "id": "prospect_145",
+      "category": "Home internet",
+      "question": "Can I save by having Verizon mobile and home internet?",
+      "answer": "Eligible customers with a standard monthly Verizon mobile plan and Verizon Home Internet can receive Mobile + Home benefits. The exact savings and perks depend on the current services, enrollment rules and plan combination.",
+      "link_text": "Learn about Mobile + Home benefits",
+      "url": "https://www.verizon.com/support/mobile-home-discounts-faqs/"
+    },
+    {
+      "id": "prospect_146",
+      "category": "Home internet",
+      "question": "Is Verizon Home Internet suitable for working from home or gaming?",
+      "answer": "It can be, depending on the available service, speed tier, latency, Wi-Fi setup and the number of simultaneous users. Check address-specific options and use a wired connection when low latency or consistent performance is especially important.",
+      "link_text": "Check home internet options",
+      "url": "https://www.verizon.com/home/internet/"
+    },
+    {
+      "id": "prospect_147",
+      "category": "Home internet",
+      "question": "Can I get Verizon Home Internet in an apartment?",
+      "answer": "Possibly. Availability depends on the exact apartment address, building access, network capacity and whether any installation is required. Check the full unit address and confirm building requirements before ordering.",
+      "link_text": "Check availability",
+      "url": "https://www.verizon.com/home/internet/fios-fastest-internet/availability/"
+    },
+    {
+      "id": "prospect_148",
+      "category": "Home internet",
+      "question": "Can I move my Verizon Home Internet service to a new address?",
+      "answer": "Service may be moved if a compatible Verizon home internet option is available at the new address. Check availability before moving and follow Verizon's instructions because the correct equipment or installation may change.",
+      "link_text": "Check service at a new address",
+      "url": "https://www.verizon.com/home/internet/fios-fastest-internet/availability/"
+    },
+    {
+      "id": "prospect_149",
+      "category": "Home internet",
+      "question": "Can I get Verizon Home Internet without Verizon mobile service?",
+      "answer": "Yes, Verizon Home Internet can be purchased without Verizon mobile service where available. Having eligible mobile service may qualify you for additional Mobile + Home benefits, but it is not required for the internet connection itself.",
+      "link_text": "Explore home internet",
+      "url": "https://www.verizon.com/home/internet/"
+    },
+    {
+      "id": "prospect_150",
+      "category": "Home internet",
+      "question": "What happens to Verizon internet equipment if I cancel service?",
+      "answer": "Verizon-owned routers, gateways or extenders generally must be returned according to the cancellation instructions and deadline to avoid an equipment charge. Keep the return receipt and shipment tracking until the return is confirmed.",
+      "link_text": "Review equipment returns",
+      "url": "https://www.verizon.com/support/return-equipment/"
+    }
+  ]
+}
