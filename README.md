@@ -4,18 +4,54 @@ This repository demonstrates a governed, six-phase UX Orchestrator through a syn
 
 ## Start here
 
-1. Open `04-presentation/final-submission-website/dist/index.html`, or serve that `dist` folder locally.
-2. Use the case-study navigation to inspect the Orchestrator, current-to-proposed design story, validation evidence, customer-test plan, Product Owner measurement case, prototype, and chatbot.
-3. Read `01-orchestrator/START-HERE.md` for the reusable framework.
+1. Experience the published case study: <https://ankusharathi.github.io/upgrade-with-confidence-ux-orchestrator/>.
+2. Read [`01-orchestrator/START-HERE.md`](01-orchestrator/START-HERE.md) for the reusable system.
+3. Follow the six project folders in [`02-upgrades-project/`](02-upgrades-project/) to inspect how the system was applied.
+4. Review [`05-evidence/`](05-evidence/) before interpreting any research, testing, or business-impact statement.
 
 ## Repository structure
 
 ```text
-01-orchestrator/     Reusable phases, agents, skills, gates, and templates
-02-upgrades-project/ Synthetic project artifacts from Intake through Validate
-03-chatbot/          Upgrade Guide source application and FAQ dataset
-04-presentation/     Final case study, demo script, website, and presentation notes
+01-orchestrator/
+├── phases/          Six phase contracts
+├── agents/          Bounded specialist roles
+├── skills/          Reusable methods, including heuristic evaluation
+├── gates/           Human approval map and gate criteria
+├── templates/       Reusable artifact formats
+└── workflow/        Routing, traceability, and handoff rules
+
+02-upgrades-project/
+├── project-brief/
+├── intake/
+├── discover/
+├── define/
+├── design/
+├── validate/
+└── deliver/
+
+03-chatbot/
+├── chatbot-requirements/
+├── conversation-flows/
+└── working-application/
+
+04-presentation/
+├── case-study/
+├── demo-script/
+└── final-submission-website/
+
+05-evidence/
+├── synthetic-data/
+├── assumptions/
+└── limitations/
 ```
+
+## How to assess the Orchestrator
+
+Every phase exposes the same decision chain:
+
+`Inputs -> Agent -> Skills -> Artifacts -> Human gate -> Next phase or revision`
+
+The framework definitions live in `01-orchestrator/`. The corresponding project records live in `02-upgrades-project/`. This separation lets a reviewer distinguish the reusable system from one synthetic demonstration of that system.
 
 ## Evidence boundary
 
@@ -33,5 +69,4 @@ python3 -m http.server 8789
 
 Then open `http://127.0.0.1:8789/`.
 
-The embedded Upgrade Guide requires its separate local backend. See `03-chatbot/README.md` and `04-presentation/final-submission-website/chatbot-app/README.md` for its setup and evidence limitations.
-
+The Upgrade Guide source and its explicit account-access boundaries are documented in `03-chatbot/`. A hosted AI version requires a protected backend and API secret; no secret is committed to this public repository.

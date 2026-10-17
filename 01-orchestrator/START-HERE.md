@@ -7,8 +7,8 @@ This folder is the canonical system of record for the completed, gated UX Orches
 - **Version:** `1.0.0`
 - **Status:** Complete and approved
 - **Release record:** `workflow/WORKFLOW-RELEASE.md`
-- **Presentation website:** <https://ankusharathi.github.io/AI-workflow-project/>
-- **Local website build:** `../ankusha-ux-orchestrator/dist/index.html`
+- **Presentation website:** <https://ankusharathi.github.io/upgrade-with-confidence-ux-orchestrator/>
+- **Submission scope:** Reusable framework definitions plus one synthetic end-to-end demonstration
 
 The website presents the system. The contracts, phase records, approvals, skills, templates, and tests in this folder remain authoritative.
 
@@ -45,10 +45,12 @@ ux-orchestrator/
 |   |-- 05-validate/
 |   `-- 06-deliver/
 |-- skills/       Reusable workflow skill definitions
+|-- gates/        Human approval map for all six transitions
 |-- templates/    Reusable artifact templates
-|-- tests/        Realistic workflow scenarios and evaluations
-`-- examples/     Sample inputs and approved outputs
+`-- workflow/     Routing, traceability, and handoff rules
 ```
+
+The larger development project included framework tests and duplicate working records. This final-submission copy intentionally keeps the reusable contracts and the single upgrades demonstration needed for assessment.
 
 ## Artifact formats
 
