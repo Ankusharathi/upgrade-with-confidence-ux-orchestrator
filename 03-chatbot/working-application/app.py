@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any
 
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
@@ -75,7 +76,27 @@ class ChatResponse(BaseModel):
     escalated: bool
 
 
-app = FastAPI(title="Verizon FAQ Assistant", docs_url=None, redoc_url=None)
+app = FastAPI(title="Upgrade Guide", docs_url=None, redoc_url=None)
+
+allowed_origins = [
+    origin.strip().rstrip("/")
+    for origin in os.getenv(
+        "ALLOWED_ORIGINS",
+        "http://127.0.0.1:8789,http://localhost:8789,https://ankusharathi.github.io",
+    ).split(",")
+    if origin.strip()
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=allowed_origins,
+    allow_origin_regex=os.getenv(
+        "ALLOWED_ORIGIN_REGEX",
+        r"https://upgrade-with-confidence(?:-[a-z0-9-]+)?\.vercel\.app",
+    ),
+    allow_credentials=False,
+    allow_methods=["POST", "OPTIONS"],
+    allow_headers=["Content-Type"],
+)
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 

@@ -3,7 +3,7 @@ services:
     name: upgrade-guide
     runtime: python
     plan: free
-    rootDir: 04-presentation/final-submission-website/chatbot-app
+    rootDir: 03-chatbot/working-application
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /health
@@ -11,4 +11,3 @@ services:
     envVars:
       - key: OPENAI_API_KEY
         sync: false
-

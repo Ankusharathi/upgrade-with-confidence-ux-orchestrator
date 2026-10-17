@@ -8,6 +8,7 @@ This repository demonstrates a governed, six-phase UX Orchestrator through a syn
 2. Read [`01-orchestrator/START-HERE.md`](01-orchestrator/START-HERE.md) for the reusable system.
 3. Follow the six project folders in [`02-upgrades-project/`](02-upgrades-project/) to inspect how the system was applied.
 4. Review [`05-evidence/`](05-evidence/) before interpreting any research, testing, or business-impact statement.
+5. Read [`DEPLOYMENT.md`](DEPLOYMENT.md) for the GitHub -> Render -> Vercel production walkthrough.
 
 ## Repository structure
 
@@ -70,3 +71,11 @@ python3 -m http.server 8789
 Then open `http://127.0.0.1:8789/`.
 
 The Upgrade Guide source and its explicit account-access boundaries are documented in `03-chatbot/`. A hosted AI version requires a protected backend and API secret; no secret is committed to this public repository.
+
+## Deployment architecture
+
+- **GitHub** stores the complete submission and remains the source of truth.
+- **Render** runs the private Python/FastAPI assistant backend and stores `OPENAI_API_KEY` as an environment variable.
+- **Vercel** hosts the public case-study and chatbot frontend. The browser receives the Render origin, never the API key.
+
+See [`DEPLOYMENT.md`](DEPLOYMENT.md) for the exact folders, commands, variables, and verification checks.
