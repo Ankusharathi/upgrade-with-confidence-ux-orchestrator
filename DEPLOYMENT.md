@@ -62,7 +62,7 @@ OPENAI_API_KEY = [enter privately in Render]
 Successful backend verification:
 
 ```text
-GET https://[render-service].onrender.com/health
+GET https://upgrade-with-confidence-ux-orchestrator.onrender.com/health
 {"status":"ok"}
 ```
 
@@ -79,10 +79,12 @@ The build copies the final frontend into `.vercel-dist` and injects the public R
 Add this non-secret production environment variable in Vercel:
 
 ```text
-UPGRADE_GUIDE_API_ORIGIN = https://[render-service].onrender.com
+UPGRADE_GUIDE_API_ORIGIN = https://upgrade-with-confidence-ux-orchestrator.onrender.com
 ```
 
 Use the origin only—no trailing `/api` or `/api/chat`.
+
+Production frontend: <https://upgrade-with-confidence-ux-orchestr.vercel.app/>
 
 ## Part 4 — End-to-end verification
 
@@ -93,6 +95,8 @@ Use the origin only—no trailing `/api` or `/api/chat`.
 5. Confirm the answer comes from the Render service.
 6. Ask an account-specific question and verify that the assistant states its boundary instead of guessing.
 7. Record the GitHub, Render, and Vercel URLs in the submission README.
+
+All seven checks were completed on October 18, 2026. The production frontend loaded successfully, its generated chatbot configuration referenced the Render origin, Render returned the expected CORS header for the Vercel domain, and a live FAQ request returned a grounded response.
 
 ## Evidence boundary
 

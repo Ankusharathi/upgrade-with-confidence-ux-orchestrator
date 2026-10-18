@@ -4,11 +4,13 @@ This repository demonstrates a governed, six-phase UX Orchestrator through a syn
 
 ## Start here
 
-1. Experience the published case study: <https://ankusharathi.github.io/upgrade-with-confidence-ux-orchestrator/>.
+1. Experience the final production case study: <https://upgrade-with-confidence-ux-orchestr.vercel.app/>.
 2. Read [`01-orchestrator/START-HERE.md`](01-orchestrator/START-HERE.md) for the reusable system.
 3. Follow the six project folders in [`02-upgrades-project/`](02-upgrades-project/) to inspect how the system was applied.
 4. Review [`05-evidence/`](05-evidence/) before interpreting any research, testing, or business-impact statement.
 5. Read [`DEPLOYMENT.md`](DEPLOYMENT.md) for the GitHub -> Render -> Vercel production walkthrough.
+
+GitHub Pages remains available as a static backup at <https://ankusharathi.github.io/upgrade-with-confidence-ux-orchestrator/>.
 
 ## Repository structure
 
@@ -77,5 +79,11 @@ The Upgrade Guide source and its explicit account-access boundaries are document
 - **GitHub** stores the complete submission and remains the source of truth.
 - **Render** runs the private Python/FastAPI assistant backend and stores `OPENAI_API_KEY` as an environment variable.
 - **Vercel** hosts the public case-study and chatbot frontend. The browser receives the Render origin, never the API key.
+
+### Verified production endpoints
+
+- Final submission: <https://upgrade-with-confidence-ux-orchestr.vercel.app/>
+- Chatbot backend health: <https://upgrade-with-confidence-ux-orchestrator.onrender.com/health>
+- Source repository: <https://github.com/Ankusharathi/upgrade-with-confidence-ux-orchestrator>
 
 See [`DEPLOYMENT.md`](DEPLOYMENT.md) for the exact folders, commands, variables, and verification checks.
